@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="14" minor="1"/>
+<Label-Scheme value="1" prefix=""/>
+<View-Properties presentation="false"><Zoom percentage="125"/></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="extended" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="8" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roma" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;">
+    </Metadata-category>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Subject" value="http://www.techniker-forum.de/physik-28/beschleunigung-teilchen-durch-strahlungsdruck-76973.html"/>
+        <Metadata-attribute name="Author" value="Ulrich Berntien"/>
+        <Metadata-attribute name="Title" value="\303\234bungsaufgabe Strahlungsdruck"/>
+        <Metadata-attribute name="Keywords" value="&lt;default&gt;"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Digits:=30:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">interface( displayprecision=8 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Aufgabe</Font></Text-field></Title>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Welche Beschleunigung erf\303\244hrt ein kugelf\303\266rmiges Staubteilchen infolge des Strahlungsdruckes der Sonnenstrahlung einer Energiestromdichte S bei vollst\303\244ndiger Absorption?</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Zeitlich gemittelter Betrag der Energiestromdichte</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">S = 15.0*Unit(MW/m^2): lhs(%)= convert( rhs(%), units, MW/m^2 );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1JI21uR0YkNiVRKjE1LjAwMDAwMEYnRjkvSSttc2VtYW50aWNzR0YkUUAxNS4wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwRictRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZmbi1JKG1mZW5jZWRHRiQ2KC1JJm1mcmFjR0YkNigtRiw2JVEjTVdGJ0YvRjItSSVtc3VwR0YkNiUtRiw2JVEibUYnRi9GMi1GUjYkUSIyRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRicvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmJwLyUpYmV2ZWxsZWRHRj1GOS9GVlElVW5pdEYnLyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRmdwRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvSSJTR0YoLCQtSSVVbml0R0YoNiMqJkkjTVdHRigiIiJJIm1HRighIiMkIj8rKysrKysrKysrKysrKzohI0c3Iy9GLSwkLUklVW5pdEc2JC9JK21vZHVsZW5hbWVHRihJJlVuaXRzR0YlRiY2IyomNiMuRjNGNDYjLkY1RjZGNw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L8" drawlabel="true" outputmask="0.0{2}E-0{1}" outputmaskimplicit="false" masktype="Scientific_Key" decimalplaces="2" usethousands="" negativenumbers="" currencysymbol="" applyint="true" applyrational="true" minimumexponent="1" showpositive="false" engineeringnotation="false">
+<Input>
+<Text-field style="Text" layout="Normal">Durchmesser des Staubteilchens</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">d = 30.0*Unit(um);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiZEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1JI21uR0YkNiRRJTMwLjBGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWS1JKG1mZW5jZWRHRiQ2KC1GLDYlUSN1bUYnRi9GMkY5L0krbXNlbWFudGljc0dGJFElVW5pdEYnLyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRltvRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvSSJkR0YoLCQtSSVVbml0R0YoNiNJI3VtR0YoJCIkKyQhIiI3Iy9GLSwkLUklVW5pdEc2JC9JK21vZHVsZW5hbWVHRihJJlVuaXRzR0YlRiY2IzYjLkYyRjM=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Dichte des Staubteilchens</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">rho = 2.8*Unit(g/cm^3): lhs(%)=convert(rhs(%), units, g/cm^3 );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEmJnJobztGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEpJmVxdWFscztGJ0YyLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSS1GIzYmLUkjbW5HRiQ2JVEqMi44MDAwMDAwRidGMi9JK21zZW1hbnRpY3NHRiRRQDIuODAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDBGJy1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGMkY5RjtGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLRlktSShtZmVuY2VkR0YkNigtSSZtZnJhY0dGJDYoLUYsNiVRImdGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy1JJW1zdXBHRiQ2JS1GLDYlUSNjbUYnRl5vRmBvLUZPNiRRIjNGJ0YyLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGY3AvJSliZXZlbGxlZEdGMUYyL0ZTUSVVbml0RicvJSVvcGVuR1EoJmxvYnJrO0YnLyUmY2xvc2VHUSgmcm9icms7RidGaHBGMkYy">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvSSRyaG9HRigsJC1JJVVuaXRHRig2IyomSSJnR0YoIiIiSSNjbUdGKCEiJCQiPysrKysrKysrKysrKysrRyEjSDcjL0YtLCQtSSVVbml0RzYkL0krbW9kdWxlbmFtZUdGKEkmVW5pdHNHRiVGJjYjKiY2Iy5GM0Y0NiMuRjVGNkY3</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">params := simplify(<Label label="L7" view="label" executable="true"></Label>),simplify(<Label label="L8" view="label" executable="true"></Label>),simplify(<Label label="L9" view="label" executable="true"></Label>):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Bearbeitung</Font></Text-field></Title>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Skizze:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true">
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Drawing-Canvas x="-Infinity" y="-Infinity" width="494.0" height="232.0" canvas-background-color="[255,255,255]" canvas-grid-color="[192,192,192]" canvas-grid-h-space="30" canvas-grid-v-space="30" canvas-opacity="1.0" canvas-show-h-grid="true" canvas-show-v-grid="true" labelreference="L3" drawcaption="false" captionalignment="0" captionposition="1">LSUnQ0FOVkFTRzYnLSUpQk9VTkRTX1hHNiMsJC0lJkZsb2F0RzYjJSlpbmZpbml0eUchIiItJSlCT1VORFNfWUdGJy0lLUJPVU5EU19XSURUSEc2IyQiJVNcRi0tJS5CT1VORFNfSEVJR0hURzYjJCIlP0JGLS0lKUNISUxEUkVORzYtLSUlT1ZBTEc2Jy0lKE9VVExJTkVHNiMtJSZDT0xPUkc2JiUkUkdCRyQiIiFGLUZHRkctJS9MSU5FX1RISUNLTkVTU0c2IyQiIzVGLS0lKFNQQVRJQUxHNiYtJSZUUkFOU0c2Iy0lJ1ZFQ1RPUkc2JEZHRkctJSdPUklHSU5HNiMtJSZQT0lOVEc2JCQiJV1FRi0kIiVnOEYtLSUmU0NBTEVHNiMtRlU2JEZMRkwtJSlST1RBVElPTkc2I0ZHLSUqTElORVNUWUxFRzYjRkgtJSVEQVRBRzYlNyQkIiUrPkYtJCIkNSdGLTckJCIlKzpGLUZfcCUnQ0xPU0VERy0lJUxJTkVHNigtRkE2Iy1GRDYmRkZGTEZHRkctJS9MSU5FX0VORF9BUlJPV0c2I1EtZmlsbGVkLWFycm93NiJGSS1GTzYmRlEtRlg2Iy1GZW42JCQiJCYpKUYtJCIkMCdGLUZbb0Zgb0Zjby1GZ282JDckJCIkKyRGLSQiJCsnRi03JCQiJXE5Ri1GXXItRmNwNihGZXBGaXBGSS1GTzYmRlEtRlg2Iy1GZW42JCQiJDAqRi0kIiREKkYtRltvRmBvRmNvLUZnbzYkNyQkIiQ/JEYtJCIkPypGLTckJCIlIVwiRi1GY3MtRmNwNihGZXBGaXBGSS1GTzYmRlEtRlg2Iy1GZW42JEZqciQiJUQ3Ri1GW29GYG9GY28tRmdvNiQ3JEZhcyQiJT83Ri03JEZmc0ZldC1GY3A2KEZlcEZpcEZJLUZPNiZGUS1GWDYjLUZlbjYkJCIkJiopRi0kIiVEOkYtRltvRmBvRmNvLUZnbzYkNyQkIiQ1JEYtJCIlPzpGLTckJCIlIVsiRi1GaXUtRmNwNihGZXBGaXBGSS1GTzYmRlEtRlg2Iy1GZW42JEZqciQiJTo9Ri1GW29GYG9GY28tRmdvNiQ3JEZhcyQiJTU9Ri03JEZmc0Zbdy1GY3A2KEZlcEZpcEZJLUZPNiZGUS1GWDYjLUZlbjYkRmpyJCIlMEBGLUZbb0Zgb0Zjby1GZ282JDckRmFzJCIlK0BGLTckRmZzRlt4LSUvVEVYVF9DT05UQUlORVJHNihGSS1GTzYmRlEtRlg2Iy1GZW42JCQiJXE1Ri0kIiQ6JEYtRltvRmBvLSUsRklYRURfV0lEVEhHNiMlJXRydWVHLSUtRklYRURfSEVJR0hUR0ZdeS1GZ282JTckJCIkIVxGLSQiJDUjRi03JCQiJWc2Ri1GZnlGYXAtJSpQQVJBR1JBUEhHNiNRX1xvQ2p4VVpYaDBMV1pwWld4a0lITjFjR1Z5YzJOeWFYQjBQU0ptWVd4elpTSWdjR3hoWTJWb2IyeGtaWEk5SW1aaGJITmxJaUJsZUdWamRYUmhZbXhsUFNKbVlXeHpaU0lnYzJWc1pXTjBhVzl1TFhCc1lXTmxhRzlzWkdWeVBTSm1ZV3h6WlNJZ2FYUmhiR2xqUFNKbVlXeHpaU0lnYzJsNlpUMGlNVElpSUdKdmJHUTlJbVpoYkhObElpQnpkV0p6WTNKcGNIUTlJbVpoYkhObElpQm1ZVzFwYkhrOUlsUnBiV1Z6SUU1bGR5QlNiMjFoYmlJZ2IzQmhjWFZsUFNKbVlXeHpaU0lnZFc1a1pYSnNhVzVsUFNKbVlXeHpaU0lnWW1GamEyZHliM1Z1WkQwaVd6STFOU3d5TlRVc01qVTFYU0lnY21WaFpHOXViSGs5SW1aaGJITmxJaUJtYjNKbFozSnZkVzVrUFNKYk1Dd3dMREJkSWlCaGJHbG5ibTFsYm5ROUlteGxablFpSUdacGNuTjBhVzVrWlc1MFBTSXdJaUJ6Y0dGalpXSmxiRzkzUFNJd0lpQnNaV1owYldGeVoybHVQU0l3SWlCc2FXNWxjM0JoWTJsdVp6MGlNQzR3SWlCcGJtbDBhV0ZzUFNJd0lpQnNhVzVsWW5KbFlXczlJbk53WVdObElpQnlhV2RvZEcxaGNtZHBiajBpTUNJZ1luVnNiR1YwYzNWbVptbDRQU0lpSUhOd1lXTmxZV0p2ZG1VOUlqQWlJR0oxYkd4bGREMGlibTl1WlNJZ2NHRm5aV0p5WldGckxXSmxabTl5WlQwaVptRnNjMlVpUGp4R2IyNTBJSE4xY0dWeWMyTnlhWEIwUFNKbVlXeHpaU0lnY0d4aFkyVm9iMnhrWlhJOUltWmhiSE5sSWlCbGVHVmpkWFJoWW14bFBTSm1ZV3h6WlNJZ2MyVnNaV04wYVc5dUxYQnNZV05sYUc5c1pHVnlQU0ptWVd4elpTSWdhWFJoYkdsalBTSm1ZV3h6WlNJZ2MybDZaVDBpTVRRaUlHSnZiR1E5SW1aaGJITmxJaUJ6ZFdKelkzSnBjSFE5SW1aaGJITmxJaUJtWVcxcGJIazlJbFJwYldWeklFNWxkeUJTYjIxaGJpSWdiM0JoY1hWbFBTSm1ZV3h6WlNJZ2RXNWtaWEpzYVc1bFBTSm1ZV3h6WlNJZ1ltRmphMmR5YjNWdVpEMGlXekkxTlN3eU5UVXNNalUxWFNJZ2NtVmhaRzl1YkhrOUltWmhiSE5sSWlCbWIzSmxaM0p2ZFc1a1BTSmJNalUxTERBc01GMGlQbE4wY21Gb2JIVnVaend2Um05dWRENDhMMVJsZUhRdFptbGxiR1ErRl1xLUZfeDYoRkktRk82JkZRLUZYNiMtRmVuNiQkIiUhcCNGLSQiJDAlRi1GW29GYG9GW3lGX3ktRmdvNiU3JCQiJVNARi0kIiQhSEYtNyQkIiUrNkYtJCIkSSNGLUZhcC1GXHo2I1FjXG9DanhVWlhoMExXWnBaV3hrSUhOMWNHVnljMk55YVhCMFBTSm1ZV3h6WlNJZ2NHeGhZMlZvYjJ4a1pYSTlJbVpoYkhObElpQmxlR1ZqZFhSaFlteGxQU0ptWVd4elpTSWdjMlZzWldOMGFXOXVMWEJzWVdObGFHOXNaR1Z5UFNKbVlXeHpaU0lnYVhSaGJHbGpQU0ptWVd4elpTSWdjMmw2WlQwaU1USWlJR0p2YkdROUltWmhiSE5sSWlCemRXSnpZM0pwY0hROUltWmhiSE5sSWlCbVlXMXBiSGs5SWxScGJXVnpJRTVsZHlCU2IyMWhiaUlnYjNCaGNYVmxQU0ptWVd4elpTSWdkVzVrWlhKc2FXNWxQU0ptWVd4elpTSWdZbUZqYTJkeWIzVnVaRDBpV3pJMU5Td3lOVFVzTWpVMVhTSWdjbVZoWkc5dWJIazlJbVpoYkhObElpQm1iM0psWjNKdmRXNWtQU0piTUN3d0xEQmRJaUJoYkdsbmJtMWxiblE5SW14bFpuUWlJR1pwY25OMGFXNWtaVzUwUFNJd0lpQnpjR0ZqWldKbGJHOTNQU0l3SWlCc1pXWjBiV0Z5WjJsdVBTSXdJaUJzYVc1bGMzQmhZMmx1WnowaU1DNHdJaUJwYm1sMGFXRnNQU0l3SWlCc2FXNWxZbkpsWVdzOUluTndZV05sSWlCeWFXZG9kRzFoY21kcGJqMGlNQ0lnWW5Wc2JHVjBjM1ZtWm1sNFBTSWlJSE53WVdObFlXSnZkbVU5SWpBaUlHSjFiR3hsZEQwaWJtOXVaU0lnY0dGblpXSnlaV0ZyTFdKbFptOXlaVDBpWm1Gc2MyVWlQanhHYjI1MElITjFjR1Z5YzJOeWFYQjBQU0ptWVd4elpTSWdjR3hoWTJWb2IyeGtaWEk5SW1aaGJITmxJaUJsZUdWamRYUmhZbXhsUFNKbVlXeHpaU0lnYzJWc1pXTjBhVzl1TFhCc1lXTmxhRzlzWkdWeVBTSm1ZV3h6WlNJZ2FYUmhiR2xqUFNKbVlXeHpaU0lnYzJsNlpUMGlNVFFpSUdKdmJHUTlJbVpoYkhObElpQnpkV0p6WTNKcGNIUTlJbVpoYkhObElpQm1ZVzFwYkhrOUlsUnBiV1Z6SUU1bGR5QlNiMjFoYmlJZ2IzQmhjWFZsUFNKbVlXeHpaU0lnZFc1a1pYSnNhVzVsUFNKbVlXeHpaU0lnWW1GamEyZHliM1Z1WkQwaVd6STFOU3d5TlRVc01qVTFYU0lnY21WaFpHOXViSGs5SW1aaGJITmxJaUJtYjNKbFozSnZkVzVrUFNKYk1Dd3dMREJkSWo1VGRHRjFZblJsYVd4amFHVnVQQzlHYjI1MFBqd3ZWR1Y0ZEMxbWFXVnNaRDQ9Rl1xLUZjcDYpRkAtJTFMSU5FX1NUQVJUX0FSUk9XRzYjUSp2ZWUtYXJyb3dGXXEtRmpwRl5cbEZJLUZPNiZGUS1GWDYjLUZlbjYkJCIlME9GLSQiJV04Ri1GW29GYG9GY28tRmdvNiQ3JCQiJStPRi1GXXI3JEZeXWxGW3gtRl94NihGSS1GTzYmRlEtRlg2Iy1GZW42JCQiJTVVRi0kIiU6OEYtRltvRmBvRlt5LUZgeTYjJSZmYWxzZUctRmdvNiU3JCQiJWdPRi0kIiUrN0YtNyRGY1tsJCIkPyVGLUZhcC1GXHo2I1FjXG9DanhVWlhoMExXWnBaV3hrSUhOMWNHVnljMk55YVhCMFBTSm1ZV3h6WlNJZ2NHeGhZMlZvYjJ4a1pYSTlJbVpoYkhObElpQmxlR1ZqZFhSaFlteGxQU0ptWVd4elpTSWdjMlZzWldOMGFXOXVMWEJzWVdObGFHOXNaR1Z5UFNKbVlXeHpaU0lnYVhSaGJHbGpQU0ptWVd4elpTSWdjMmw2WlQwaU1USWlJR0p2YkdROUltWmhiSE5sSWlCemRXSnpZM0pwY0hROUltWmhiSE5sSWlCbVlXMXBiSGs5SWxScGJXVnpJRTVsZHlCU2IyMWhiaUlnYjNCaGNYVmxQU0ptWVd4elpTSWdkVzVrWlhKc2FXNWxQU0ptWVd4elpTSWdZbUZqYTJkeWIzVnVaRDBpV3pJMU5Td3lOVFVzTWpVMVhTSWdjbVZoWkc5dWJIazlJbVpoYkhObElpQm1iM0psWjNKdmRXNWtQU0piTUN3d0xEQmRJaUJoYkdsbmJtMWxiblE5SW14bFpuUWlJR1pwY25OMGFXNWtaVzUwUFNJd0lpQnpjR0ZqWldKbGJHOTNQU0l3SWlCc1pXWjBiV0Z5WjJsdVBTSXdJaUJzYVc1bGMzQmhZMmx1WnowaU1DNHdJaUJwYm1sMGFXRnNQU0l3SWlCc2FXNWxZbkpsWVdzOUluTndZV05sSWlCeWFXZG9kRzFoY21kcGJqMGlNQ0lnWW5Wc2JHVjBjM1ZtWm1sNFBTSWlJSE53WVdObFlXSnZkbVU5SWpBaUlHSjFiR3hsZEQwaWJtOXVaU0lnY0dGblpXSnlaV0ZyTFdKbFptOXlaVDBpWm1Gc2MyVWlQanhHYjI1MElITjFjR1Z5YzJOeWFYQjBQU0ptWVd4elpTSWdjR3hoWTJWb2IyeGtaWEk5SW1aaGJITmxJaUJsZUdWamRYUmhZbXhsUFNKbVlXeHpaU0lnYzJWc1pXTjBhVzl1TFhCc1lXTmxhRzlzWkdWeVBTSm1ZV3h6WlNJZ2FYUmhiR2xqUFNKbVlXeHpaU0lnYzJsNlpUMGlNVFFpSUdKdmJHUTlJbVpoYkhObElpQnpkV0p6WTNKcGNIUTlJbVpoYkhObElpQm1ZVzFwYkhrOUlsUnBiV1Z6SUU1bGR5QlNiMjFoYmlJZ2IzQmhjWFZsUFNKbVlXeHpaU0lnZFc1a1pYSnNhVzVsUFNKbVlXeHpaU0lnWW1GamEyZHliM1Z1WkQwaVd6STFOU3d5TlRVc01qVTFYU0lnY21WaFpHOXViSGs5SW1aaGJITmxJaUJtYjNKbFozSnZkVzVrUFNKYk1Dd3dMREJkSWo1RWRYSmphRzFsYzNObGNpQmtQQzlHYjI1MFBqd3ZWR1Y0ZEMxbWFXVnNaRDQ9Rl1x</Drawing-Canvas></Text-field>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Font superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]">Annahme:</Font></Text-field>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Font superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]">- Die Strahlung ist parallel.</Font></Text-field>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Font superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]">- Das Staubteilchen befindet sich im Vakuum.</Font></Text-field>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Font superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]">- Neben der Stahlung wirkt keine andere Kraft auf das Staubteilchens.</Font></Text-field>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Font superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" encoding="UTF-8" readonly="false" foreground="[0,0,0]">- Die Geschwindigkeit des Stauteilchens ist klein gegen\303\274ber der Lichtgeschwindigkeit.</Font></Text-field>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">Das Staubteilchen absorbiert die Strahlung. Dabei nimmt das Staubteilchen die Energie und den Impuls der Strahlung auf.</Text-field>
+<Text-field style="Text" layout="Normal">Der Impulsfluss der elektromagnetischen Strahlung [1]:</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">q = S/c;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEicUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUYsNiVRIlNGJ0YvRjItRiw2JVEiY0YnRi9GMi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZ24vJSliZXZlbGxlZEdGPUY5">L0kicUc2IiomSSJTR0YkIiIiSSJjR0YkISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">dabei ist c die Lichtgeschwindigkeit [3]</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">c = evalf(ScientificConstants[Constant](c,units));</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiY0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GIzYmLUkjbW5HRiQ2JVEqMi45OTc5MjQ2RidGOS9JK21zZW1hbnRpY3NHRiRRKzIuOTk3OTI0NThGJy1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmhuLUklbXN1cEdGJDYmLUZUNiRRIzEwRidGOS1GVDYkUSI4RidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRicvRlhRIl5GJ0Y5RlotSShtZmVuY2VkR0YkNigtSSZtZnJhY0dGJDYoLUYsNiVRIm1GJ0YvRjItRiw2JVEic0YnRi9GMi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaXAvJSliZXZlbGxlZEdGPUY5L0ZYUSVVbml0RicvJSVvcGVuR1EoJmxvYnJrO0YnLyUmY2xvc2VHUSgmcm9icms7RidGXnFGOUY5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvSSJjR0YoLCQtSSVVbml0R0YoNiMqJkkibUdGKCIiIkkic0dGKCEiIiQiKmVDeipIIiIhNyMvRi0sJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YoSSZVbml0c0dGJUYmNiMqJjYjLkYzRjQ2Iy5GNUY2Rjc=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Das Staubteilchen absorbiert Strahlung auf einer Kreisscheibe mit Fl\303\244che A senkrecht zur Strahlrichtung. Die Fl\303\244che aus [2].</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">A = Pi*d^2/4;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiQUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUYjNiYtRiw2JVElJnBpO0YnL0YwRj1GOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmZuLUklbXN1cEdGJDYlLUYsNiVRImRGJ0YvRjItSSNtbkdGJDYkUSIyRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOS1GX282JFEiNEYnRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl1wLyUpYmV2ZWxsZWRHRj1GOQ==">L0kiQUc2IiwkKiZJI1BpRyUqcHJvdGVjdGVkRyIiIkkiZEdGJCIiIyNGKSIiJQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Der Impulsstrom Q aus der Stahlung auf das Staubteilchen ist</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Q = q*A;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GLDYlUSJxRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWC1GLDYlUSJBRidGL0YyRjlGOQ==">L0kiUUc2IiomSSJxR0YkIiIiSSJBR0YkRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( <Label label="L19" view="label" executable="true"></Label>, <Label label="L21" view="label" executable="true"></Label>, <Label label="L22" view="label" executable="true"></Label> );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUYjNigtRiw2JVEiU0YnRi9GMi1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmVuLUYsNiVRJSZwaTtGJy9GMEY9RjlGVy1JJW1zdXBHRiQ2JS1GLDYlUSJkRidGL0YyLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjktRiM2Ji1GYm82JFEiNEYnRjlGVy1GLDYlUSJjRidGL0YyRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmVwLyUpYmV2ZWxsZWRHRj1GOQ==">L0kiUUc2IiwkKipJIlNHRiQiIiJJImNHRiQhIiJJI1BpRyUqcHJvdGVjdGVkR0YoSSJkR0YkIiIjI0YoIiIl</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Der Impuls p des Staubteilchens kann nicht-relativistisch berechnet werden</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">p = m*v;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEicEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GLDYlUSJtRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWC1GLDYlUSJ2RidGL0YyRjlGOQ==">L0kicEc2IiomSSJtR0YkIiIiSSJ2R0YkRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Dabei ist v die Geschwindigkeit des Staubteilchens und m die Masse des Staubteilchens. Die Masse folgt aus Dichte und Volumen der Kugel [2].</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">m = rho*Pi*d^3/6;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEibUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUYjNigtRiw2JVEmJnJobztGJy9GMEY9RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZmbi1GLDYlUSUmcGk7RidGV0Y5RlgtSSVtc3VwR0YkNiUtRiw2JVEiZEYnRi9GMi1JI21uR0YkNiRRIjNGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y5LUZibzYkUSI2RidGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYHAvJSliZXZlbGxlZEdGPUY5">L0kibUc2IiwkKihJJHJob0dGJCIiIkkjUGlHJSpwcm90ZWN0ZWRHRihJImRHRiQiIiQjRigiIic=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Die Ableitung von <Label label="L24" view="label" executable="false"></Label><Font encoding="UTF-8"> liefert die Impuls\303\244nderung bei der Beschleunigung a.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dp/dt = m*a;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiVRI2RwRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYvNiVRI2R0RidGMkY1LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZALyUpYmV2ZWxsZWRHUSZmYWxzZUYnLUkjbW9HRiQ2LVEpJmVxdWFscztGJy9GNlEnbm9ybWFsRicvJSZmZW5jZUdGRS8lKnNlcGFyYXRvckdGRS8lKXN0cmV0Y2h5R0ZFLyUqc3ltbWV0cmljR0ZFLyUobGFyZ2VvcEdGRS8lLm1vdmFibGVsaW1pdHNHRkUvJSdhY2NlbnRHRkUvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1GIzYmLUYvNiVRIm1GJ0YyRjUtRkc2LVExJkludmlzaWJsZVRpbWVzO0YnRkpGTEZORlBGUkZURlZGWC9GZW5RJjAuMGVtRicvRmhuRmJvLUYvNiVRImFGJ0YyRjVGSkZK">LyomSSNkcEc2IiIiIkkjZHRHRiUhIiIqJkkibUdGJUYmSSJhR0YlRiY=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der Impuls des Staubteilchens \303\244ndert sich nur durch die Impulsaufnahme bei der Absorption der Stahlung. Auf das Staubteilchens wirkt keine weitere Kraft.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Q = dp/dt;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUYsNiVRI2RwRidGL0YyLUYsNiVRI2R0RidGL0YyLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Znbi8lKWJldmVsbGVkR0Y9Rjk=">L0kiUUc2IiomSSNkcEdGJCIiIkkjZHRHRiQhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Einsetzen in <Label label="L25" view="label" executable="false"></Label>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( rhs(<Label label="L32" view="label" executable="true"></Label>)=lhs(<Label label="L32" view="label" executable="true"></Label>),<Label label="L25" view="label" executable="true"></Label> );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiUUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1GLDYlUSJtRidGL0YyLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GWC1GLDYlUSJhRidGL0YyRjlGOQ==">L0kiUUc2IiomSSJtR0YkIiIiSSJhR0YkRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Einsetzen des Impulsstroms aus <Label label="L23" view="label" executable="false"></Label> und der Masse aus <Label label="L32" view="label" executable="false"></Label>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(<Label label="L23" view="label" executable="true"></Label>,<Label label="L26" view="label" executable="true"></Label>,<Label label="L27" view="label" executable="true"></Label>);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1GIzYoLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJy9GOFEnbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkIvJSlzdHJldGNoeUdGQi8lKnN5bW1ldHJpY0dGQi8lKGxhcmdlb3BHRkIvJS5tb3ZhYmxlbGltaXRzR0ZCLyUnYWNjZW50R0ZCLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUS1GMTYlUSUmcGk7RicvRjVGQkY+RjotSSVtc3VwR0YkNiUtRjE2JVEiZEYnRjRGNy1JI21uR0YkNiRRIjJGJ0Y+LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y+LUYjNiYtRmluNiRRIjRGJ0Y+RjotRjE2JVEiY0YnRjRGN0Y+LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZccC8lKWJldmVsbGVkR0ZCLUY7Ni1RKSZlcXVhbHM7RidGPkZARkNGRUZHRklGS0ZNL0ZQUSwwLjI3Nzc3NzhlbUYnL0ZTRmVwLUYsNigtRiM2Ki1GMTYlUSYmcmhvO0YnRldGPkY6RlRGOi1GWTYlRmVuLUZpbjYkUSIzRidGPkZcb0Y6LUYxNiVRImFGJ0Y0RjdGPi1GaW42JFEiNkYnRj5GZ29Gam9GXXBGX3BGPg==">LywkKipJIlNHNiIiIiJJImNHRiYhIiJJI1BpRyUqcHJvdGVjdGVkR0YnSSJkR0YmIiIjI0YnIiIlLCQqKkkkcmhvR0YmRidGKkYnRiwiIiRJImFHRiZGJyNGJyIiJw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Aufl\303\266sen nach der gesuchten Beschleunigung a.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">isolate(<Label label="L28" view="label" executable="true"></Label>,a);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiYUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUYjNiYtSSNtbkdGJDYkUSIzRidGOS1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmZuLUYsNiVRIlNGJ0YvRjJGOS1GIzYqLUZVNiRRIjJGJ0Y5RlgtRiw2JVEiY0YnRi9GMkZYLUYsNiVRImRGJ0YvRjJGWC1GLDYlUSYmcmhvO0YnL0YwRj1GOUY5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZfcC8lKWJldmVsbGVkR0Y9Rjk=">L0kiYUc2IiwkKipJIlNHRiQiIiJJImNHRiQhIiJJImRHRiRGKkkkcmhvR0YkRiojIiIkIiIj</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Einsetzen der gegebenen Parameter und der Lichtgeschwindigkeit. </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(params,<Label label="L20" view="label" executable="true"></Label>,<Label label="L29" view="label" executable="true"></Label>): simplify(%);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiYUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiM2Ji1JI21uR0YkNiVRKzAuODkzNDc1MjVGJ0Y5L0krbXNlbWFudGljc0dGJFFALjg5MzQ3NTI1NDk5NTA1MDEzMjc5MTcyMzM0MjM0M0YnLUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZm4tSShtZmVuY2VkR0YkNigtSSZtZnJhY0dGJDYoLUYsNiVRIm1GJ0YvRjItSSVtc3VwR0YkNiUtRiw2JVEic0YnRi9GMi1GUjYkUSIyRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRicvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmJwLyUpYmV2ZWxsZWRHRj1GOS9GVlElVW5pdEYnLyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRmdwRjlGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMvSSJhR0YoLCQtSSVVbml0R0YoNiMqJkkibUdGKCIiIkkic0dGKCEiIyQiP1ZCTUI8ekssMCYqXER2TSopISNJNyMvRi0sJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YoSSZVbml0c0dGJUYmNiMqJjYjLkYzRjQ2Iy5GNUY2Rjc=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die Beschleunigung des Staubteilchens betr\303\244gt 0,89 m/s\302\262.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">Hilfsmittel:</Text-field>
+<Text-field style="Text" layout="Normal">[1] Saleh und Teich: Grundlagen der Photonik, Wiley-VCH Verlag</Text-field>
+<Text-field style="Text" layout="Normal">[2] Bronstein et al, Taschenbuch der Mathematik, Verlag Harri Deutsch</Text-field>
+<Text-field style="Text" layout="Normal">[3] Maple 14</Text-field>
+</Input>
+</Group>
+</Section>
+</Worksheet>
