@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="17" minor="2"/>
+<Label-Scheme value="1" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true"><Zoom percentage="125"/>
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="8" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;"/>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Subject" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Author" value="Ulrich Berntien"/>
+        <Metadata-attribute name="Item List" value="true"/>
+        <Metadata-attribute name="Title" value="Nebenrechnungen zur Sinterung"/>
+        <Metadata-attribute name="Keywords" value="Sinterung Crypton Pr\303\274fvorschrift"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Digits := 24: interface( displayprecision = 8 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">movesign := gl -&gt; lhs(gl) = sort(-1*numer(rhs(gl)))/sort(-1*denom(rhs(gl))):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L74" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal" alignment="right">Stand: 6.1.2014</Text-field>
+<Text-field style="Text" layout="Normal" alignment="right">Autor: Dr. Ulrich Berntien</Text-field>
+<Text-field style="Text" layout="Normal" alignment="right"></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Inhalt</Font></Text-field></Title>
+<Group labelreference="L75" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Aufstellen von Formeln f\303\274r die</Font></Text-field>
+<Text-field style="Text" layout="Normal" bullet="dot"><Font encoding="UTF-8">Umrechnung Sinterfaktor \342\206\224 Sinterschrumpfung</Font></Text-field>
+<Text-field style="Text" layout="Normal" bullet="dot"><Font encoding="UTF-8">Umrechnung Fehler Sinterschurmpfung \342\206\222 Fehler Sinterfaktor</Font></Text-field>
+<Text-field style="Text" layout="Normal" bullet="dot"><Font encoding="UTF-8">Auswirkung Fehler Sinterfaktor auf L\303\244nge von Objekten</Font></Text-field>
+<Text-field style="Text" layout="Normal" bullet="dot"><Font encoding="UTF-8">Auswirkung Fehler Sinterschrumpfung auf L\303\244nge von Objekten</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Sinterfaktor und Sinterschrumpfung</Font></Text-field></Title>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Berechnung Sinterfaktor aus der Pr\303\274fvorschrift Q-10-VAZ-15-2000</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">H\303\266he[vor_Sinterung] / H\303\266he[nach_Sinterung] = Sinterfaktor;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1GIzYmLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEqSCYjMjQ2O2hlRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYjNiYtRjQ2JVEudm9yX1NpbnRlcnVuZ0YnRjdGOi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdRJmZhbHNlRicvRjtRJ25vcm1hbEYnLyUvc3Vic2NyaXB0c2hpZnRHUSIwRidGQkZFRkgtRiM2Ji1GMTYlRjMtRiM2Ji1GNDYlUS9uYWNoX1NpbnRlcnVuZ0YnRjdGOkZCRkVGSEZKRkJGRUZILyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zlbi8lKWJldmVsbGVkR0ZHLUkjbW9HRiQ2LVEiPUYnRkgvJSZmZW5jZUdGRy8lKnNlcGFyYXRvckdGRy8lKXN0cmV0Y2h5R0ZHLyUqc3ltbWV0cmljR0ZHLyUobGFyZ2VvcEdGRy8lLm1vdmFibGVsaW1pdHNHRkcvJSdhY2NlbnRHRkcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZecC1GNDYlUS1TaW50ZXJmYWt0b3JGJ0Y3RjpGQkZFRkg=">LyomJkklSHxhemhlRzYiNiNJLnZvcl9TaW50ZXJ1bmdHRiYiIiImRiU2I0kvbmFjaF9TaW50ZXJ1bmdHRiYhIiJJLVNpbnRlcmZha3RvckdGJg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Berechnung Sinterschrumpfung aus der Pr\303\274fvorschrift Q-10-VAZ-15-2000 ohne den Faktor 100 f\303\274r die Umrechnung in Prozent.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">( H\303\266he[vor_Sinterung] - H\303\266he[nach_Sinterung] )/ H\303\266he[vor_Sinterung] = Sinterschrumpfung;</Font></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1GIzYmLUYjNiYtSSVtc3ViR0YkNiUtSSNtaUdGJDYlUSpIJiMyNDY7aGVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GNjYlUS52b3JfU2ludGVydW5nRidGOUY8LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R1EmZmFsc2VGJy9GPVEnbm9ybWFsRicvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RKCZtaW51cztGJ0ZKLyUmZmVuY2VHRkkvJSpzZXBhcmF0b3JHRkkvJSlzdHJldGNoeUdGSS8lKnN5bW1ldHJpY0dGSS8lKGxhcmdlb3BHRkkvJS5tb3ZhYmxlbGltaXRzR0ZJLyUnYWNjZW50R0ZJLyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGXW8tRjM2JUY1LUYjNiYtRjY2JVEvbmFjaF9TaW50ZXJ1bmdGJ0Y5RjxGREZHRkpGTEZKRkRGR0ZKLUYjNiZGMkZERkdGSi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXnAvJSliZXZlbGxlZEdGSS1GUDYtUSI9RidGSkZTRlVGV0ZZRmVuRmduRmluL0Zcb1EsMC4yNzc3Nzc4ZW1GJy9GX29GZ3AtRjY2JVEyU2ludGVyc2NocnVtcGZ1bmdGJ0Y5RjxGREZHRko=">LyomLCYmSSVIfGF6aGVHNiI2I0kudm9yX1NpbnRlcnVuZ0dGJyIiIiZGJjYjSS9uYWNoX1NpbnRlcnVuZ0dGJyEiIkYqRiVGLkkyU2ludGVyc2NocnVtcGZ1bmdHRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Sinterfaktor und Sinterschrumpfung lassen sich umrechnen.</Text-field>
+<Text-field style="Text" layout="Normal">Aus den Gleichungen <Label label="L4" view="label" executable="false"></Label> und <Label label="L5" view="label" executable="false"></Label> folgen die Umrechnungsformeln.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">isolate(<Label label="L4" view="label" executable="true"></Label><Font encoding="UTF-8">,H\303\266he[vor_Sinterung]</Font>):
+subs( %, <Label label="L5" view="label" executable="true"></Label> ):
+simplify(%):
+isolate( %, Sinterschrumpfung );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEyU2ludGVyc2NocnVtcGZ1bmdGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSI9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSZtZnJhY0dGJDYoLUYjNiYtRiM2Ji1GLDYlUS1TaW50ZXJmYWt0b3JGJ0YvRjItRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZnbi1JI21uR0YkNiRRIjFGJ0Y5RjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOS1GIzYmRlZGXW9GYG9GOS8lLmxpbmV0aGlja25lc3NHRlxvLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmhvLyUpYmV2ZWxsZWRHRj1GXW9GYG9GOQ==">L0kyU2ludGVyc2NocnVtcGZ1bmdHNiIqJiwmSS1TaW50ZXJmYWt0b3JHRiQiIiIhIiJGKEYoRidGKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">isolate( <Label label="L6" view="label" executable="true"></Label>, Sinterfaktor ):
+movesign(%);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEtU2ludGVyZmFrdG9yRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiPUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkmbWZyYWNHRiQ2KC1JI21uR0YkNiRRIjFGJ0Y5LUYjNiYtRiM2Jy1GNjYtUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GaG4tRiw2JVEyU2ludGVyc2NocnVtcGZ1bmdGJ0YvRjItRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSEZnbkZpbkZSRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOS8lLmxpbmV0aGlja25lc3NHRlUvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaW8vJSliZXZlbGxlZEdGPUZgb0Zjb0Y5">L0ktU2ludGVyZmFrdG9yRzYiKiQsJkkyU2ludGVyc2NocnVtcGZ1bmdHRiQhIiIiIiJGKUYo</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Zahlenbeispiel f\303\274r einen typischen Sinterfaktor von Crypton.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Sinterfaktor = 1.1; subs(%,<Label label="L6" view="label" executable="true"></Label>);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">L0ktU2ludGVyZmFrdG9yRzYiJCIjNiEiIg==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">L0kyU2ludGVyc2NocnVtcGZ1bmdHNiIkIjkiNDQ0NDQ0NDQ0NDQqISNE</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false" encoding="UTF-8">Auswirkung Fehler im Sinterfaktor auf die L\303\244nge eines Objekts</Font></Text-field></Title>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Ziel ist eine Formel f\303\274r den L\303\244ngenfehler eines Objekts ausgel\303\266st durch einen Abweichung des wahren Sinterfaktors vom aufgedruckten Sinterfaktor.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Soll ein Objekt der L\303\244nge L hergestellt werden, muss ein Objekt der L\303\244nge L</Font><Font subscript="true">v</Font><Font encoding="UTF-8"> gefr\303\244st werden, damit der Sinterschrumpfung ausgeglichen wird. Berechnet wird die L\303\244nge L</Font><Font subscript="true">v</Font><Font encoding="UTF-8"> \303\274ber den aufgedrukten Sinterfaktor F.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L[v] = L * F;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRInZGJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHUSZmYWxzZUYnL0Y2USdub3JtYWxGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiPUYnRkMvJSZmZW5jZUdGQi8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1GIzYmRi4tRkk2LVExJkludmlzaWJsZVRpbWVzO0YnRkNGTEZORlBGUkZURlZGWC9GZW5RJjAuMGVtRicvRmhuRl9vLUYvNiVRIkZGJ0YyRjVGQ0Y9RkBGQw==">LyZJIkxHNiI2I0kidkdGJSomRiQiIiJJIkZHRiVGKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Beim Sintern schrumpft das Objekt von der L\303\244nge L</Font><Font subscript="true">v</Font><Font encoding="UTF-8"> auf die L\303\244nge L</Font><Font subscript="true">n</Font> bestimmt durch den wahren Sinterfaktors F<Font subscript="true">w</Font><Font encoding="UTF-8">. Dieser Schrumpf kann abweichen von dem aufgedruckten Sinterschrumpfung. Ursache k\303\266nnen eine Schwankung des Sinterfaktors zwischen den Rohlingen einer Charge sein und Schwankungen innerhalb eines Rohlings.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der relativer Fehler des Sinterfaktors wird mit \316\265</Font><Font subscript="true">F</Font> bezeichnet.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">F[w] = F*(1+epsilon[F]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRIndGJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHUSZmYWxzZUYnL0Y2USdub3JtYWxGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiPUYnRkMvJSZmZW5jZUdGQi8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1GIzYmRi4tRkk2LVExJkludmlzaWJsZVRpbWVzO0YnRkNGTEZORlBGUkZURlZGWC9GZW5RJjAuMGVtRicvRmhuRl9vLUkobWZlbmNlZEdGJDYkLUYjNiYtSSNtbkdGJDYkUSIxRidGQy1GSTYtUSIrRidGQ0ZMRk5GUEZSRlRGVkZYL0ZlblEsMC4yMjIyMjIyZW1GJy9GaG5GXnAtRiw2JS1GLzYlUScmIzk0OTtGJy9GM0ZCRkMtRiM2JkYuRj1GQEZDRkVGQ0ZDRkNGPUZARkM=">LyZJIkZHNiI2I0kid0dGJSomRiQiIiIsJkYpRikmSShlcHNpbG9uR0YlNiNGJEYpRik=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L[n] = L[v] / F[w];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRIm5GJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHUSZmYWxzZUYnL0Y2USdub3JtYWxGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiPUYnRkMvJSZmZW5jZUdGQi8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1JJm1mcmFjR0YkNigtRiM2Ji1GLDYlRi4tRiM2Ji1GLzYlUSJ2RidGMkY1Rj1GQEZDRkVGPUZARkMtRiM2Ji1GLDYlLUYvNiVRIkZGJ0YyRjUtRiM2Ji1GLzYlUSJ3RidGMkY1Rj1GQEZDRkVGPUZARkMvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmZwLyUpYmV2ZWxsZWRHRkJGPUZARkM=">LyZJIkxHNiI2I0kibkdGJSomJkYkNiNJInZHRiUiIiImSSJGR0YlNiNJIndHRiUhIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Einsetzen von <Label label="L11" view="label" executable="false"></Label>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( <Label label="L11" view="label" executable="true"></Label>, <Label label="L10" view="label" executable="true"></Label> );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRIm5GJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHUSZmYWxzZUYnL0Y2USdub3JtYWxGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiPUYnRkMvJSZmZW5jZUdGQi8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1JJm1mcmFjR0YkNigtRiM2KEYuLUZJNi1RMSZJbnZpc2libGVUaW1lcztGJ0ZDRkxGTkZQRlJGVEZWRlgvRmVuUSYwLjBlbUYnL0ZobkZiby1GLzYlUSJGRidGMkY1Rj1GQEZDLUYjNiYtRiw2JUZkby1GIzYmLUYvNiVRIndGJ0YyRjVGPUZARkNGRUY9RkBGQy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZXAvJSliZXZlbGxlZEdGQkY9RkBGQw==">LyZJIkxHNiI2I0kibkdGJSooRiQiIiJJIkZHRiVGKSZGKjYjSSJ3R0YlISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Einsetzen von <Label label="L12" view="label" executable="false"></Label>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(<Label label="L12" view="label" executable="true"></Label>,<Label label="L14" view="label" executable="true"></Label>);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRIm5GJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHUSZmYWxzZUYnL0Y2USdub3JtYWxGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiPUYnRkMvJSZmZW5jZUdGQi8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1JJm1mcmFjR0YkNigtRiM2JkYuRj1GQEZDLUYjNiYtRiM2Ji1JI21uR0YkNiRRIjFGJ0ZDLUZJNi1RIitGJ0ZDRkxGTkZQRlJGVEZWRlgvRmVuUSwwLjIyMjIyMjJlbUYnL0ZobkZqby1GLDYlLUYvNiVRJyYjOTQ5O0YnL0YzRkJGQy1GIzYmLUYvNiVRIkZGJ0YyRjVGPUZARkNGRUZDRj1GQEZDLyUubGluZXRoaWNrbmVzc0dGZW8vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW3EvJSliZXZlbGxlZEdGQkY9RkBGQw==">LyZJIkxHNiI2I0kibkdGJSomRiQiIiIsJkYpRikmSShlcHNpbG9uR0YlNiNJIkZHRiVGKSEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der absolute Fehler \316\224</Font><Font subscript="true">L</Font><Font encoding="UTF-8"> der L\303\244nge.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L[n] = L + Delta[L];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRIm5GJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHUSZmYWxzZUYnL0Y2USdub3JtYWxGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiPUYnRkMvJSZmZW5jZUdGQi8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1GIzYmRi4tRkk2LVEiK0YnRkNGTEZORlBGUkZURlZGWC9GZW5RLDAuMjIyMjIyMmVtRicvRmhuRl9vLUYsNiUtRi82JVEnJiM5MTY7RicvRjNGQkZDLUYjNiZGLkY9RkBGQ0ZFRkNGPUZARkM=">LyZJIkxHNiI2I0kibkdGJSwmRiQiIiImSSZEZWx0YUdGJTYjRiRGKQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Aufl\303\266sen nach dem Fehler; einsetzen von <Label label="L15" view="label" executable="false"></Label></Font>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">isolate(<Label label="L20" view="label" executable="true"></Label>,Delta[L]):
+subs(<Label label="L15" view="label" executable="true"></Label>,%);
+simplify(%):
+movesign(%);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtSSZtZnJhY0dGJDYoRjgtRiM2Ji1GIzYmLUkjbW5HRiQ2JFEiMUYnRjUtRko2LVEiK0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RLDAuMjIyMjIyMmVtRicvRmluRltwLUYsNiUtRi82JVEnJiM5NDk7RidGMkY1LUYjNiYtRi82JVEiRkYnRj1GP0ZBRkRGNUZGRjVGQUZERjUvJS5saW5ldGhpY2tuZXNzR0Zmby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZbcS8lKWJldmVsbGVkR0Y0LUZKNi1RKCZtaW51cztGJ0Y1Rk1GT0ZRRlNGVUZXRllGam9GXHBGOkY1RkFGREY1">LyZJJkRlbHRhRzYiNiNJIkxHRiUsJiomRiciIiIsJkYqRiomSShlcHNpbG9uR0YlNiNJIkZHRiVGKiEiIkYqRidGMA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYoRjotRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RJjAuMGVtRicvRmluRmNvLUYsNiUtRi82JVEnJiM5NDk7RidGMkY1LUYjNiYtRi82JVEiRkYnRj1GP0ZBRkRGNUZGRkFGREY1LUYjNiYtRiM2Jy1GSjYtUSomdW1pbnVzMDtGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZncEZlby1GSjYtUSgmbWludXM7RidGNUZNRk9GUUZTRlVGV0ZZRmZwRmhwLUkjbW5HRiQ2JFEiMUYnRjVGNUZBRkRGNS8lLmxpbmV0aGlja25lc3NHRl9xLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmRxLyUpYmV2ZWxsZWRHRjRGQUZERjU=">LyZJJkRlbHRhRzYiNiNJIkxHRiUqKEYnIiIiJkkoZXBzaWxvbkdGJTYjSSJGR0YlRiksJkYqISIiRi9GKUYv</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der relativer \316\265</Font><Font subscript="true">L</Font><Font encoding="UTF-8"> der L\303\244nge.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">epsilon[L] = Delta[L] / L;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYmLUYsNiUtRi82JVEnJiM5MTY7RidGMkY1RjhGRkZBRkRGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zpby8lKWJldmVsbGVkR0Y0RkFGREY1">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSomJkkmRGVsdGFHRiVGJiIiIkYnISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Gleichung <Label label="L21" view="label" executable="false"></Label> einsetzen.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(<Label label="L21" view="label" executable="true"></Label>,<Label label="L25" view="label" executable="true"></Label>);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYmLUYsNiVGLi1GIzYmLUYvNiVRIkZGJ0Y9Rj9GQUZERjVGRkZBRkRGNS1GIzYmLUYjNictRko2LVEqJnVtaW51czA7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEsMC4yMjIyMjIyZW1GJy9GaW5GXnBGX28tRko2LVEoJm1pbnVzO0YnRjVGTUZPRlFGU0ZVRldGWUZdcEZfcC1JI21uR0YkNiRRIjFGJ0Y1RjVGQUZERjUvJS5saW5ldGhpY2tuZXNzR0ZmcC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZbcS8lKWJldmVsbGVkR0Y0RkFGREY1">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSomJkYkNiNJIkZHRiUiIiIsJkYpISIiRi5GLEYu</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der relativer Fehler muss deutlich kleiner als 1 sein, damit das Objekt brauchbar ist. F\303\274r \303\234berschlagsrechnungen ist eine N\303\244herungsformel \303\274ber die Taylorentwicklung m\303\266glich.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L27" view="label" executable="true"></Label>) = taylor(rhs(<Label label="L27" view="label" executable="true"></Label>),epsilon[F],2);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSsnJkYkNiNJIkZHRiUhIiIiIiItSSJPRyUqcHJvdGVjdGVkRzYjRi0iIiM=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">In linearer N\303\244herung ist der relative Fehler der L\303\244nge gleich dem relativen Fehler des Sinterfaktors.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Zahlenbeispiele f\303\274r die exakte Auswirkung des relativen Fehlers des Sinterfaktors auf die L\303\244nge.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for f in {0.01, 0.05, 0.1, 0.2 } do
+   epsilon[F] = f;
+   print( %, subs(%,<Label label="L27" view="label" executable="true"></Label>) );
+end:</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiQvJkkoZXBzaWxvbkc2IjYjSSJGR0YmJCIiIiEiIy8mRiU2I0kiTEdGJiQhOSwqNCEqNCEqNCEqNCEqNCEqKiEjRQ==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiQvJkkoZXBzaWxvbkc2IjYjSSJGR0YmJCIiJiEiIy8mRiU2I0kiTEdGJiQhOSE+dy8+dy8+dy8+dyUhI0Q=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiQvJkkoZXBzaWxvbkc2IjYjSSJGR0YmJCIiIiEiIi8mRiU2I0kiTEdGJiQhOSI0NDQ0NDQ0NDQ0NCohI0Q=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiQvJkkoZXBzaWxvbkc2IjYjSSJGR0YmJCIiIyEiIi8mRiU2I0kiTEdGJiQhOW5tbW1tbW1tbW1tOyEjQw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die 1ineare N\303\244herung ist bis zu einem relativen Fehler von 10% brauchbar.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Umrechnung Fehler Sinterschrumpfung zu Fehler Sinterfaktor</Font></Text-field></Title>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Der Sinterfaktor kann aus dem Sinterschrumpfung berechnet werden, siehe Gleichung <Label label="L7" view="label" executable="false"></Label>.</Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Ziel ist eine Formel f\303\274r die Berechnung des Fehlers im Sinterfaktor, wenn der Fehler im Sinterschrumpfung gegeben ist.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal">Sinterfaktor F berechnet sich aus Sinterschrumpfung S nach <Label label="L7" view="label" executable="false"></Label>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( Sinterfaktor=F, Sinterschrumpfung=S, <Label label="L7" view="label" executable="true"></Label> );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGOS1GIzYmLUYjNictRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmhuLUYsNiVRIlNGJ0YvRjItRjY2LVEiK0YnRjlGO0Y+RkBGQkZERkZGSEZnbkZpbkZSRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOS8lLmxpbmV0aGlja25lc3NHRlUvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGaW8vJSliZXZlbGxlZEdGPUZgb0Zjb0Y5">L0kiRkc2IiokLCZJIlNHRiQhIiIiIiJGKUYo</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der Sinterschrumpfung S hat einen relativen Fehler \316\265</Font><Font subscript="true">S</Font><Font encoding="UTF-8">. Der Sinterfaktor hat einen relativen Fehler \316\265</Font><Font subscript="true">F</Font>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( Sinterfaktor=F*(1+epsilon[F]), Sinterschrumpfung=S*(1+epsilon[S]), <Label label="L7" view="label" executable="true"></Label> );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNiYtSSNtaUdGJDYlUSJGRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnL0Y1USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPy8lKXN0cmV0Y2h5R0Y/LyUqc3ltbWV0cmljR0Y/LyUobGFyZ2VvcEdGPy8lLm1vdmFibGVsaW1pdHNHRj8vJSdhY2NlbnRHRj8vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZOLUkobWZlbmNlZEdGJDYkLUYjNiYtSSNtbkdGJDYkUSIxRidGOy1GODYtUSIrRidGO0Y9RkBGQkZERkZGSEZKL0ZNUSwwLjIyMjIyMjJlbUYnL0ZQRmhuLUklbXN1YkdGJDYlLUYuNiVRJyYjOTQ5O0YnL0YyRj9GOy1GIzYmRi0vJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj9GOy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnRjtGO0Y7LUY4Ni1RIj1GJ0Y7Rj1GQEZCRkRGRkZIRkovRk1RLDAuMjc3Nzc3OGVtRicvRlBGX3AtSSZtZnJhY0dGJDYoRlYtRiM2Ji1GIzYnLUY4Ni1RKiZ1bWludXMwO0YnRjtGPUZARkJGREZGRkhGSkZnbkZpbi1GIzYmLUYuNiVRIlNGJ0YxRjRGNy1GUjYkLUYjNiZGVkZaLUZbbzYlRl1vLUYjNiZGXXFGY29GZm9GO0Zob0Y7RjtGO0ZaRlZGO0Zjb0Zmb0Y7LyUubGluZXRoaWNrbmVzc0dGWS8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zcci8lKWJldmVsbGVkR0Y/RmNvRmZvRjs=">LyomSSJGRzYiIiIiLCZGJkYmJkkoZXBzaWxvbkdGJTYjRiRGJkYmKiQsJiomSSJTR0YlRiYsJkYmRiYmRik2I0YuRiZGJiEiIkYmRiZGMg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Gleichung <Label label="L32" view="label" executable="false"></Label> durch Gleichung <Label label="L31" view="label" executable="false"></Label> teilen.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L32" view="label" executable="true"></Label>)/lhs(<Label label="L31" view="label" executable="true"></Label>) = rhs(<Label label="L32" view="label" executable="true"></Label>)/rhs(<Label label="L31" view="label" executable="true"></Label>);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNiYtSSNtbkdGJDYkUSIxRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVEiK0YnRjEvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjovJSlzdHJldGNoeUdGOi8lKnN5bW1ldHJpY0dGOi8lKGxhcmdlb3BHRjovJS5tb3ZhYmxlbGltaXRzR0Y6LyUnYWNjZW50R0Y6LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGSS1JJW1zdWJHRiQ2JS1JI21pR0YkNiVRJyYjOTQ5O0YnLyUnaXRhbGljR0Y6RjEtRiM2Ji1GUDYlUSJGRicvRlRRJXRydWVGJy9GMlEnaXRhbGljRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRjpGMS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnRjEtRjU2LVEiPUYnRjFGOEY7Rj1GP0ZBRkNGRS9GSFEsMC4yNzc3Nzc4ZW1GJy9GS0Zkby1JJm1mcmFjR0YkNigtRiM2Ji1GIzYnLUY1Ni1RKiZ1bWludXMwO0YnRjFGOEY7Rj1GP0ZBRkNGRUZHRkotRlA2JVEiU0YnRlpGZm5GNEYtRjFGaG5GW29GMS1GIzYmLUYjNidGXXAtRiM2JkZgcC1GNTYtUTEmSW52aXNpYmxlVGltZXM7RidGMUY4RjtGPUY/RkFGQ0ZFL0ZIUSYwLjBlbUYnL0ZLRl1xLUkobWZlbmNlZEdGJDYkLUYjNiZGLUY0LUZNNiVGTy1GIzYmRmBwRmhuRltvRjFGXW9GMUYxRjFGNEYtRjFGaG5GW29GMS8lLmxpbmV0aGlja25lc3NHRjAvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXHIvJSliZXZlbGxlZEdGOkZobkZbb0Yx">LywmIiIiRiQmSShlcHNpbG9uRzYiNiNJIkZHRidGJComLCYqJkkiU0dGJ0YkLCZGJEYkJkYmNiNGLUYkRiQhIiJGJEYkRjEsJkYtRjFGJEYkRiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Aufl\303\266sen nach dem gesuchten \316\265</Font><Font subscript="true">F</Font>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">isolate(<Label label="L33" view="label" executable="true"></Label>,epsilon[F]):
+simplify(%):
+movesign(%):
+collect(%,S);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYoLUYvNiVRIlNGJ0Y9Rj8tRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RJjAuMGVtRicvRmluRmZvLUYsNiVGLi1GIzYmRl9vRkFGREY1RkZGQUZERjUtRiM2Ji1GIzYmLUkjbW5HRiQ2JFEiMUYnRjUtRko2LVEiK0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RLDAuMjIyMjIyMmVtRicvRmluRmhwLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2Jy1GSjYtUSomdW1pbnVzMDtGJ0Y1Rk1GT0ZRRlNGVUZXRllGZ3BGaXBGaG8tRko2LVEoJm1pbnVzO0YnRjVGTUZPRlFGU0ZVRldGWUZncEZpcEZgcEY1RjVGYm9GX29GNUY1RkFGREY1LyUubGluZXRoaWNrbmVzc0dGY3AvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW3IvJSliZXZlbGxlZEdGNEZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSooSSJTR0YlIiIiJkYkNiNGKUYqLCZGKkYqKiYsJkYrISIiRjBGKkYqRilGKkYqRjA=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">In der Praxis interessant sind nur relative Fehler klein gegen 1. F\303\274r diese Anwendung die Umrechnung <Label label="L34" view="label" executable="false"></Label></Font> linearisieren.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L34" view="label" executable="true"></Label>) = taylor(rhs(<Label label="L34" view="label" executable="true"></Label>), epsilon[S], 2 );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNigtRiM2Ji1JJm1mcmFjR0YkNigtRiM2Ji1GLzYlUSJTRidGPUY/RkFGREY1LUYjNiYtRiM2Jy1GSjYtUSomdW1pbnVzMDtGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZecEZjby1GSjYtUSIrRidGNUZNRk9GUUZTRlVGV0ZZRl1wRl9wLUkjbW5HRiQ2JFEiMUYnRjVGNUZBRkRGNS8lLmxpbmV0aGlja25lc3NHRmZwLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRltxLyUpYmV2ZWxsZWRHRjQtRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RJjAuMGVtRicvRmluRmRxLUYsNiVGLkZhb0ZGRjVGYHAtRiM2Jy1GLzYlUSJPRidGMkY1LUkobWZlbmNlZEdGJDYkLUYjNiYtSShtc3Vic3VwR0YkNidGLkZhby1GZHA2JFEiMkYnRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R0ZIRkZGQUZERjVGNUZBRkRGNUZBRkRGNUZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSsnJkYkNiNJIlNHRiUqJkYrIiIiLCZGKyEiIkYtRi1GL0YtLUkiT0clKnByb3RlY3RlZEc2I0YtIiIj</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">F\303\274r Crypton ist die Schrumpfung klein gegen 1, also auch bez\303\274glich S linearisieren.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L35" view="label" executable="true"></Label>) = subs(x=epsilon[S],taylor(subs(epsilon[S]=x,rhs(<Label label="L35" view="label" executable="true"></Label>)), S, 2 ));
+lhs(%)=coeff(rhs(%),S)*S;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNigtRiM2Ji1GIzYoLUYvNiVRIk9GJ0YyRjUtRko2LVEwJkFwcGx5RnVuY3Rpb247RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GZ28tSShtZmVuY2VkR0YkNiQtRiM2Ji1GIzYkLUkobXN1YnN1cEdGJDYnRi4tRiM2Ji1GLzYlUSJTRidGPUY/RkFGREY1LUkjbW5HRiQ2JFEiMkYnRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R0ZIRkZGNUZBRkRGNUY1RkFGREY1LUZKNi1RIitGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZicS1GIzYmLUYsNiVGLkZjcEZGLUZKNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y1Rk1GT0ZRRlNGVUZXRllGZm9GaG9GZXBGNUY1Rl5xLUYjNidGYG8tRmpvNiQtRiM2Ji1JJW1zdXBHRiQ2JUZlcEZocEZccUZBRkRGNUY1RkFGREY1RkFGREY1RkFGREY1">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSspSSJTR0YlLUkiT0clKnByb3RlY3RlZEc2IyokJkYkNiNGKSIiIyIiIUYvIiIiLUYrNiNGM0Yx</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtRi82JVEiU0YnRj1GPy1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GY28tRiw2JUYuLUYjNiZGXG9GQUZERjVGRkY1RkFGREY1">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSomSSJTR0YlIiIiJkYkNiNGKUYq</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Bei linearer N\303\244herung f\303\274r Fehler und Sinterfaktor: Der relativer Fehler des Sinterfaktors ist der absolute Fehler der Sinterschrumpfung.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L60" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Gleichung <Label label="L37" view="label" executable="false"></Label><Font encoding="UTF-8"> deutet darauf hin, dass der absolute Fehler der Sinterschrumpfung eine praktisch gut handhabbare Gr\303\266\303\237e f\303\274r die Beschreibung des Fehlers bei der Sinterung ist.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der absolute Fehler \316\224</Font><Font subscript="true">S</Font><Font encoding="UTF-8"> der Sinterschrumpfung berechnet sich aus dem relativen Fehler \316\265</Font><Font subscript="true">S</Font> und der Sinterschrumpfung.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta[S] = epsilon[S] * S;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIlNGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiZGOi1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GYG8tRiw2JS1GLzYlUScmIzk0OTtGJ0YyRjVGOEZGRjVGQUZERjU=">LyZJJkRlbHRhRzYiNiNJIlNHRiUqJkYnIiIiJkkoZXBzaWxvbkdGJUYmRik=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L61" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Eingesetzt in Gleichung <Label label="L34" view="label" executable="false"></Label> kann der relative Fehler des Sinterfaktors aus dem absoluten Fehler der Sinterschrumpfung berechnet werden.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( isolate(<Label label="L60" view="label" executable="true"></Label>,epsilon[S]), <Label label="L34" view="label" executable="true"></Label> ):
+expand(%);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYmLUYsNiUtRi82JVEnJiM5MTY7RidGMkY1LUYjNiYtRi82JVEiU0YnRj1GP0ZBRkRGNUZGRkFGREY1LUYjNiYtRiM2KC1JI21uR0YkNiRRIjFGJ0Y1LUZKNi1RKCZtaW51cztGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZlcEZfb0ZhcEZmb0Y1RkFGREY1LyUubGluZXRoaWNrbmVzc0dGYHAvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW3EvJSliZXZlbGxlZEdGNEZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSomJkkmRGVsdGFHRiU2I0kiU0dGJSIiIiwoRi1GLUYpISIiRixGL0Yv</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L62" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der absolute Fehler der Sinterschrumpfung \316\224</Font><Font subscript="true">S</Font> ist wesentlich kleiner als 1. Daher die Gleichung <Label label="L61" view="label" executable="false"></Label> linearisieren. Das Ergebnis entspricht der Gleichung <Label label="L35" view="label" executable="false"></Label><Font encoding="UTF-8"> f\303\274r den relativen Fehler.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L61" view="label" executable="true"></Label>) = taylor(rhs(<Label label="L61" view="label" executable="true"></Label>),Delta[S],2 );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNigtRiM2Ji1JJm1mcmFjR0YkNigtSSNtbkdGJDYkUSIxRidGNS1GIzYmLUYjNictRko2LVEqJnVtaW51czA7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEsMC4yMjIyMjIyZW1GJy9GaW5GXXAtRi82JVEiU0YnRj1GPy1GSjYtUSIrRidGNUZNRk9GUUZTRlVGV0ZZRlxwRl5wRmFvRjVGQUZERjUvJS5saW5ldGhpY2tuZXNzR0Zkby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZpcC8lKWJldmVsbGVkR0Y0LUZKNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSYwLjBlbUYnL0ZpbkZicS1GLDYlLUYvNiVRJyYjOTE2O0YnRjJGNS1GIzYmRl9wRkFGREY1RkZGNUZicC1GIzYnLUYvNiVRIk9GJ0YyRjUtSShtZmVuY2VkR0YkNiQtRiM2Ji1JKG1zdWJzdXBHRiQ2J0ZmcUZpcS1GYm82JFEiMkYnRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R0ZIRkZGQUZERjVGNUZBRkRGNUZBRkRGNUZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSsnJkkmRGVsdGFHRiU2I0kiU0dGJSokLCZGLCEiIiIiIkYwRi9GMC1JIk9HJSpwcm90ZWN0ZWRHNiNGMCIiIw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L63" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Auch hier die Linearisierung bez\303\274glich S, weil bei Crypton die Sinterschrumpfung S klein gegen 1 ist. </Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L62" view="label" executable="true"></Label>) = subs(x=Delta[S],taylor(subs(Delta[S]=x,rhs(<Label label="L62" view="label" executable="true"></Label>)), S, 2 ));
+lhs(%)=-Delta[S];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNigtRiM2Ji1GIzYmLUYsNiUtRi82JVEnJiM5MTY7RidGMkY1LUYjNiYtRi82JVEiU0YnRj1GP0ZBRkRGNUZGLUZKNi1RIitGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZecC1GIzYoLUYvNiVRIk9GJ0YyRjUtRko2LVEwJkFwcGx5RnVuY3Rpb247RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GaXAtSShtZmVuY2VkR0YkNiQtRiM2Ji1GIzYkLUkobXN1YnN1cEdGJDYnRmJvRmVvLUkjbW5HRiQ2JFEiMkYnRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R0ZIRkZGNUZBRkRGNUY1RkFGREY1RjVGam8tRiM2JkZgby1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZRmhwRmpwRmdvRjVGNUZqby1GIzYnRmJwLUZccTYkLUYjNiYtSSVtc3VwR0YkNiVGZ29GZXFGaXFGQUZERjVGNUZBRkRGNUZBRkRGNUZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSspSSJTR0YlLCYmSSZEZWx0YUdGJTYjRikiIiItSSJPRyUqcHJvdGVjdGVkRzYjKiRGKyIiI0YuIiIhRitGLi1GMDYjRi5GNA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNictRko2LVEqJnVtaW51czA7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEsMC4yMjIyMjIyZW1GJy9GaW5GYG8tRiw2JS1GLzYlUScmIzkxNjtGJ0YyRjUtRiM2Ji1GLzYlUSJTRidGPUY/RkFGREY1RkZGQUZERjVGQUZERjU=">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSwkJkkmRGVsdGFHRiU2I0kiU0dGJSEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L71" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Zahlenbeispiel f\303\274r die exakte Umrechnung mit <Label label="L61" view="label" executable="false"></Label> f\303\274r den typischen Sinterschrumpfung von Crypton.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for f in {0.01, 0.05, 0.1, 0.2 } do
+   Delta[S] = f, S = 0.0909;
+   print( %, subs(%,<Label label="L61" view="label" executable="true"></Label>) );
+end:</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiIhIiMvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkZHRiYkIjkqKXl4bWNiV01MQTc2ISNE</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiYhIiMvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkZHRiYkIjl2Zlt2bGhMS1UvP2UhI0Q=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiIhIiIvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkZHRiYkIjlRRk4xWS4/cDYlZkIiISND</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiMhIiIvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkZHRiYkIjlZSEAhUmpiMG13LyNHISND</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L72" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die lineare N\303\244herung <Label label="L37" view="label" executable="false"></Label></Font> ist bei Crypton bei zu einem Fehler von rund 10%-Punkte brauchbar.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false" encoding="UTF-8">Auswirkung Fehler in der Sinterschrumpfung auf die L\303\244nge eines Objekts</Font></Text-field></Title>
+<Group labelreference="L46" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Ziel ist eine Formel f\303\274r den L\303\244ngenfehler eines Objekts ausgel\303\266st durch einen Abweichung des wahren Sinterfaktors vom aufgedruckten Sinterfaktor, wobei der Fehler des Sinterfaktors nur indirekt \303\274ber den Fehler der Sinterschrumpfung gegeben ist.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der relative Fehler \316\265</Font><Font subscript="true">L</Font><Font encoding="UTF-8"> der Objektl\303\244nge ausgel\303\266st durch einen relativen Fehler \316\265</Font><Font subscript="true">F</Font> im Sinterfaktor ist in Gleichung <Label label="L27" view="label" executable="false"></Label> gegeben.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Label label="L27" view="label" executable="true"></Label>;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYmLUYsNiVGLi1GIzYmLUYvNiVRIkZGJ0Y9Rj9GQUZERjVGRkZBRkRGNS1GIzYmLUYjNictRko2LVEqJnVtaW51czA7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEsMC4yMjIyMjIyZW1GJy9GaW5GXnBGX28tRko2LVEoJm1pbnVzO0YnRjVGTUZPRlFGU0ZVRldGWUZdcEZfcC1JI21uR0YkNiRRIjFGJ0Y1RjVGQUZERjUvJS5saW5ldGhpY2tuZXNzR0ZmcC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZbcS8lKWJldmVsbGVkR0Y0RkFGREY1">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSomJkYkNiNJIkZHRiUiIiIsJkYpISIiRi5GLEYu</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L48" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der relative Fehler \316\265</Font><Font subscript="true">F</Font><Font encoding="UTF-8"> gegeben durch den relativen Fehler \316\265</Font><Font subscript="true">S</Font> des Sinterfaktors ist in Gleichung <Label label="L34" view="label" executable="false"></Label> gegeben.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Label label="L34" view="label" executable="true"></Label>;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYoLUYvNiVRIlNGJ0Y9Rj8tRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RJjAuMGVtRicvRmluRmZvLUYsNiVGLi1GIzYmRl9vRkFGREY1RkZGQUZERjUtRiM2Ji1GIzYmLUkjbW5HRiQ2JFEiMUYnRjUtRko2LVEiK0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RLDAuMjIyMjIyMmVtRicvRmluRmhwLUYjNiYtSShtZmVuY2VkR0YkNiQtRiM2Jy1GSjYtUSomdW1pbnVzMDtGJ0Y1Rk1GT0ZRRlNGVUZXRllGZ3BGaXBGaG8tRko2LVEoJm1pbnVzO0YnRjVGTUZPRlFGU0ZVRldGWUZncEZpcEZgcEY1RjVGYm9GX29GNUY1RkFGREY1LyUubGluZXRoaWNrbmVzc0dGY3AvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW3IvJSliZXZlbGxlZEdGNEZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSooSSJTR0YlIiIiJkYkNiNGKUYqLCZGKkYqKiYsJkYrISIiRjBGKkYqRilGKkYqRjA=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L49" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Einsetzen in Gleichung <Label label="L45" view="label" executable="false"></Label> und vereinfachen.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( <Label label="L48" view="label" executable="true"></Label>, <Label label="L45" view="label" executable="true"></Label> ):
+simplify(%):
+collect(%,S):
+sort(%);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYoLUYvNiVRIlNGJ0Y9Rj8tRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RJjAuMGVtRicvRmluRmZvLUYsNiVGLi1GIzYmRl9vRkFGREY1RkZGQUZERjUtRiM2Ji1GIzYmRl9vLUZKNi1RKCZtaW51cztGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZkcC1JI21uR0YkNiRRIjFGJ0Y1RjVGQUZERjUvJS5saW5ldGhpY2tuZXNzR0ZpcC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZecS8lKWJldmVsbGVkR0Y0RkFGREY1">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSooLCZJIlNHRiUiIiIhIiJGK0YsRipGKyZGJDYjRipGKw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L50" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Linearisieren f\303\274r kleine relativer Fehler \316\265</Font><Font subscript="true">S</Font> und kleine Sinterschrumpfung S.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L49" view="label" executable="true"></Label>) = taylor(rhs(<Label label="L49" view="label" executable="true"></Label>), epsilon[S], 2 );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtSSZtZnJhY0dGJDYoLUYjNiYtRi82JVEiU0YnRj1GP0ZBRkRGNS1GIzYmLUYjNiZGYW8tRko2LVEoJm1pbnVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RLDAuMjIyMjIyMmVtRicvRmluRlxwLUkjbW5HRiQ2JFEiMUYnRjVGNUZBRkRGNS8lLmxpbmV0aGlja25lc3NHRmFwLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmZwLyUpYmV2ZWxsZWRHRjQtRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RJjAuMGVtRicvRmluRl9xLUYsNiVGLkZfb0ZGRjVGQUZERjU=">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSslJkYkNiNJIlNHRiUqJkYrIiIiLCZGK0YtISIiRi1GL0Yt</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L51" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L50" view="label" executable="true"></Label>) = subs(x=epsilon[S],taylor(subs(epsilon[S]=x,rhs(<Label label="L50" view="label" executable="true"></Label>)), S, 2 ));
+lhs(%)=coeff(rhs(%),S)*S;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNigtRiM2Jy1GSjYtUSomdW1pbnVzMDtGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZiby1GIzYmLUYsNiVGLi1GIzYmLUYvNiVRIlNGJ0Y9Rj9GQUZERjVGRi1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GYXBGam9GNUZBRkRGNS1GSjYtUSIrRidGNUZNRk9GUUZTRlVGV0ZZRmFvRmNvLUYjNictRi82JVEiT0YnRjJGNS1JKG1mZW5jZWRHRiQ2JC1GIzYmLUklbXN1cEdGJDYlRmpvLUkjbW5HRiQ2JFEiMkYnRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R0ZIRkFGREY1RjVGQUZERjVGQUZERjVGQUZERjU=">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSsnSSJTR0YlLCQmRiQ2I0YpISIiIiIiLUkiT0clKnByb3RlY3RlZEc2I0YuIiIj</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNictRko2LVEqJnVtaW51czA7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEsMC4yMjIyMjIyZW1GJy9GaW5GYG8tRiM2Ji1GLzYlUSJTRidGPUY/LUZKNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSYwLjBlbUYnL0ZpbkZbcC1GLDYlRi4tRiM2JkZkb0ZBRkRGNUZGRjVGQUZERjVGQUZERjU=">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSwkKiZJIlNHRiUiIiImRiQ2I0YqRishIiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L55" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Bei linearer N\303\244herung f\303\274r relativen Fehler und Sinterschrumpfung: Der relativer Fehler der Objektl\303\244nge ist der absolute Fehler der Sinterschrumpfung.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L64" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der relative L\303\244ngenfehler \316\265</Font><Font subscript="true">L</Font><Font encoding="UTF-8"> kann k\303\274rzer mit dem absoluten Fehler der Sinterschrumpfung \316\224</Font><Font subscript="true">S</Font> dargestellt werden.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L68" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Der relative Fehler \316\265</Font><Font subscript="true">F</Font><Font encoding="UTF-8"> gegeben durch den absoluten Fehler \316\224</Font><Font subscript="true">S</Font> des Sinterfaktors ist in Gleichung <Label label="L61" view="label" executable="false"></Label> gegeben.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Label label="L61" view="label" executable="true"></Label>;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkZGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYmLUYsNiUtRi82JVEnJiM5MTY7RidGMkY1LUYjNiYtRi82JVEiU0YnRj1GP0ZBRkRGNUZGRkFGREY1LUYjNiYtRiM2KC1JI21uR0YkNiRRIjFGJ0Y1LUZKNi1RKCZtaW51cztGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZlcEZfb0ZhcEZmb0Y1RkFGREY1LyUubGluZXRoaWNrbmVzc0dGYHAvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW3EvJSliZXZlbGxlZEdGNEZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiRkdGJSomJkkmRGVsdGFHRiU2I0kiU0dGJSIiIiwoRi1GLUYpISIiRixGL0Yv</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L67" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Einsetzen in Gleichung <Label label="L45" view="label" executable="false"></Label> und vereinfachen.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( <Label label="L68" view="label" executable="true"></Label>, <Label label="L45" view="label" executable="true"></Label> ):
+simplify(%);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUkmbWZyYWNHRiQ2KC1GIzYmLUYsNiUtRi82JVEnJiM5MTY7RidGMkY1LUYjNiYtRi82JVEiU0YnRj1GP0ZBRkRGNUZGRkFGREY1LUYjNiYtRiM2JkZmby1GSjYtUSgmbWludXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEsMC4yMjIyMjIyZW1GJy9GaW5GYXAtSSNtbkdGJDYkUSIxRidGNUY1RkFGREY1LyUubGluZXRoaWNrbmVzc0dGZnAvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW3EvJSliZXZlbGxlZEdGNEZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSomJkkmRGVsdGFHRiU2I0kiU0dGJSIiIiwmRixGLSEiIkYtRi8=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L69" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Linearisieren f\303\274r kleine absolute Fehler \316\224</Font><Font subscript="true">S</Font> und kleine Sinterschrumpfung S.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L67" view="label" executable="true"></Label>) = taylor(rhs(<Label label="L67" view="label" executable="true"></Label>), Delta[S], 2 );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JFEiMUYnRjUtRiM2Ji1GIzYmLUYvNiVRIlNGJ0Y9Rj8tRko2LVEoJm1pbnVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RLDAuMjIyMjIyMmVtRicvRmluRl5wRl9vRjVGQUZERjUvJS5saW5ldGhpY2tuZXNzR0Ziby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZkcC8lKWJldmVsbGVkR0Y0LUZKNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSYwLjBlbUYnL0ZpbkZdcS1GLDYlLUYvNiVRJyYjOTE2O0YnRjJGNS1GIzYmRmdvRkFGREY1RkZGNUZBRkRGNQ==">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSslJkkmRGVsdGFHRiU2I0kiU0dGJSokLCZGLCIiIiEiIkYvRjBGLw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L65" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lhs(<Label label="L69" view="label" executable="true"></Label>) = subs(x=Delta[S],taylor(subs(Delta[S]=x,rhs(<Label label="L69" view="label" executable="true"></Label>)), S, 2 ));
+lhs(%)=-Delta[S];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNigtRiM2Jy1GSjYtUSomdW1pbnVzMDtGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZiby1GLDYlLUYvNiVRJyYjOTE2O0YnRjJGNS1GIzYmLUYvNiVRIlNGJ0Y9Rj9GQUZERjVGRi1GSjYtUSgmbWludXM7RidGNUZNRk9GUUZTRlVGV0ZZRmFvRmNvLUYjNiZGZG8tRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RJjAuMGVtRicvRmluRmdwRltwRjVGNS1GSjYtUSIrRidGNUZNRk9GUUZTRlVGV0ZZRmFvRmNvLUYjNictRi82JVEiT0YnRjJGNS1JKG1mZW5jZWRHRiQ2JC1GIzYmLUklbXN1cEdGJDYlRltwLUkjbW5HRiQ2JFEiMkYnRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R0ZIRkFGREY1RjVGQUZERjVGQUZERjVGQUZERjU=">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSspSSJTR0YlLCQmSSZEZWx0YUdGJTYjRikhIiIiIiFGKiIiIi1JIk9HJSpwcm90ZWN0ZWRHNiNGMCIiIw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIkxGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNictRko2LVEqJnVtaW51czA7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEsMC4yMjIyMjIyZW1GJy9GaW5GYG8tRiw2JS1GLzYlUScmIzkxNjtGJ0YyRjUtRiM2Ji1GLzYlUSJTRidGPUY/RkFGREY1RkZGQUZERjVGQUZERjU=">LyZJKGVwc2lsb25HNiI2I0kiTEdGJSwkJkkmRGVsdGFHRiU2I0kiU0dGJSEiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L66" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Bei linearer N\303\244herung f\303\274r relativen Fehler und Sinterschrumpfung: Der relativer Fehler der Objektl\303\244nge ist der absolute Fehler der Sinterschrumpfung.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L53" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Zahlenbeispiel f\303\274r die exakte Umrechnung mit <Label label="L67" view="label" executable="false"></Label> f\303\274r den typischen Sinterschrumpfung von Crypton.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for f in {0.01, 0.05, 0.1, 0.2 } do
+   Delta[S] = f, S = 0.0909;
+   print( %, subs(%,<Label label="L67" view="label" executable="true"></Label>) );
+end:</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiIhIiMvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkxHRiYkITkrNishKikqKjQsKyopKio0IiEjRA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiYhIiMvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkxHRiYkITkrYitdJSoqXDArWCoqXCYhI0Q=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiIhIiIvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkxHRiYkITkrNishKikqKjQsKyopKio0IiEjQw==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NiUvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiMhIiIvRigkIiQ0KiEiJS8mSShlcHNpbG9uR0YmNiNJIkxHRiYkITkrQSsheSoqPi0reSoqPiMhI0M=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L54" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die lineare N\303\244herung <Label label="L65" view="label" executable="false"></Label></Font> ist bei Crypton bei zu einem Fehler von rund 10%-Punkte brauchbar.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L52" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Zahlenbeispiel f\303\274r eine 4-gliedrige Br\303\274cke in Crypton.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L = 35*Unit(mm), S = 0.0909;</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSNtaUdGJDYlUSJMRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiPUYnL0Y1USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPy8lKXN0cmV0Y2h5R0Y/LyUqc3ltbWV0cmljR0Y/LyUobGFyZ2VvcEdGPy8lLm1vdmFibGVsaW1pdHNHRj8vJSdhY2NlbnRHRj8vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZOLUYjNiYtSSNtbkdGJDYkUSMzNUYnRjstRjg2LVExJkludmlzaWJsZVRpbWVzO0YnRjtGPUZARkJGREZGRkhGSi9GTVEmMC4wZW1GJy9GUEZlbi1JKG1mZW5jZWRHRiQ2Ji1GLjYlUSNtbUYnRjFGNEY7LyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRjsvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj9GOy1GODYtUSIsRidGO0Y9L0ZBRjNGQkZERkZGSEZKRlovRlBRLDAuMzMzMzMzM2VtRictRiM2KC1GLjYlUSJTRidGMUY0RjctRlQ2JFErMC4wOTA5MDAwMEYnRjtGY29GZm9GO0Zjb0Zmb0Y7">NiQvSSJMRzYiLCQtSSVVbml0RzYkL0krbW9kdWxlbmFtZUdGJUkmVW5pdHNHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiVGLjYjNiMuSSNtbUdGJSIjTi9JIlNHRiUkIiQ0KiEiJQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L56" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">F\303\274r gegebene relative Fehler der Sinterschrumpfung:</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for f in {0.003, 0.006, 0.009 } do
+   epsilon[S] = f;
+   print( %, subs(%,<Label label="L52" view="label" executable="true"></Label>,Delta = L*rhs(<Label label="L49" view="label" executable="true"></Label>) ));
+end:</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSVtc3ViR0YkNiUtSSNtaUdGJDYlUScmIzk0OTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRjE2JVEiU0YnL0Y1USV0cnVlRicvRjhRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y2RjcvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIj1GJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGaW4tSSNtbkdGJDYkUSswLjAwMzAwMDAwRidGN0ZDRkZGNy1GTDYtUSIsRidGN0ZPL0ZSRkBGU0ZVRldGWUZlbi9GaG5RJjAuMGVtRicvRltvUSwwLjMzMzMzMzNlbUYnLUYjNigtRjE2JVEnJiM5MTY7RidGNEY3RkstRiM2Jy1GTDYtUSomdW1pbnVzMDtGJ0Y3Rk9GUUZTRlVGV0ZZRmVuL0ZoblEsMC4yMjIyMjIyZW1GJy9GW29GY3AtRiM2Ji1GXW82JFErMC4wMTA0OTg4NUYnRjctRkw2LVExJkludmlzaWJsZVRpbWVzO0YnRjdGT0ZRRlNGVUZXRllGZW5GZG8vRltvRmVvLUkobWZlbmNlZEdGJDYmLUYxNiVRI21tRidGP0ZBRjcvJSVvcGVuR1EoJmxvYnJrO0YnLyUmY2xvc2VHUSgmcm9icms7RidGN0ZDRkZGN0ZDRkZGN0ZDRkZGNw==">NiQvJkkoZXBzaWxvbkc2IjYjSSJTR0YmJCIiJCEiJC9JJkRlbHRhR0YmLCQtSSVVbml0RzYkL0krbW9kdWxlbmFtZUdGJkkmVW5pdHNHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiZGNjYjNiMuSSNtbUdGJiQhOV06LFgpKVw6LFgpKVw1ISNE</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSVtc3ViR0YkNiUtSSNtaUdGJDYlUScmIzk0OTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRjE2JVEiU0YnL0Y1USV0cnVlRicvRjhRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y2RjcvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIj1GJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGaW4tSSNtbkdGJDYkUSswLjAwNjAwMDAwRidGN0ZDRkZGNy1GTDYtUSIsRidGN0ZPL0ZSRkBGU0ZVRldGWUZlbi9GaG5RJjAuMGVtRicvRltvUSwwLjMzMzMzMzNlbUYnLUYjNigtRjE2JVEnJiM5MTY7RidGNEY3RkstRiM2Jy1GTDYtUSomdW1pbnVzMDtGJ0Y3Rk9GUUZTRlVGV0ZZRmVuL0ZoblEsMC4yMjIyMjIyZW1GJy9GW29GY3AtRiM2Ji1GXW82JFErMC4wMjA5OTc2OUYnRjctRkw2LVExJkludmlzaWJsZVRpbWVzO0YnRjdGT0ZRRlNGVUZXRllGZW5GZG8vRltvRmVvLUkobWZlbmNlZEdGJDYmLUYxNiVRI21tRidGP0ZBRjcvJSVvcGVuR1EoJmxvYnJrO0YnLyUmY2xvc2VHUSgmcm9icms7RidGN0ZDRkZGN0ZDRkZGN0ZDRkZGNw==">NiQvJkkoZXBzaWxvbkc2IjYjSSJTR0YmJCIiJyEiJC9JJkRlbHRhR0YmLCQtSSVVbml0RzYkL0krbW9kdWxlbmFtZUdGJkkmVW5pdHNHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiZGNjYjNiMuSSNtbUdGJiQhOStKLSFwKCo0QitwKCo0IyEjRA==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSVtc3ViR0YkNiUtSSNtaUdGJDYlUScmIzk0OTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRjE2JVEiU0YnL0Y1USV0cnVlRicvRjhRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y2RjcvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIj1GJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGaW4tSSNtbkdGJDYkUSswLjAwOTAwMDAwRidGN0ZDRkZGNy1GTDYtUSIsRidGN0ZPL0ZSRkBGU0ZVRldGWUZlbi9GaG5RJjAuMGVtRicvRltvUSwwLjMzMzMzMzNlbUYnLUYjNigtRjE2JVEnJiM5MTY7RidGNEY3RkstRiM2Jy1GTDYtUSomdW1pbnVzMDtGJ0Y3Rk9GUUZTRlVGV0ZZRmVuL0ZoblEsMC4yMjIyMjIyZW1GJy9GW29GY3AtRiM2Ji1GXW82JFErMC4wMzE0OTY1NEYnRjctRkw2LVExJkludmlzaWJsZVRpbWVzO0YnRjdGT0ZRRlNGVUZXRllGZW5GZG8vRltvRmVvLUkobWZlbmNlZEdGJDYmLUYxNiVRI21tRidGP0ZBRjcvJSVvcGVuR1EoJmxvYnJrO0YnLyUmY2xvc2VHUSgmcm9icms7RidGN0ZDRkZGN0ZDRkZGN0ZDRkZGNw==">NiQvJkkoZXBzaWxvbkc2IjYjSSJTR0YmJCIiKiEiJC9JJkRlbHRhR0YmLCQtSSVVbml0RzYkL0krbW9kdWxlbmFtZUdGJkkmVW5pdHNHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiZGNjYjNiMuSSNtbUdGJiQhOV1ZLk5sXFkuTmxcSiEjRA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L57" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">F\303\274r gegebene absolute Fehler der Sinterschrumpfung:</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">for f in {0.003, 0.006, 0.009 } do
+   Delta[S] = f;
+   print( %, subs(%,<Label label="L52" view="label" executable="true"></Label>,Delta = L*rhs(<Label label="L67" view="label" executable="true"></Label>) ));
+end:</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSVtc3ViR0YkNiUtSSNtaUdGJDYlUScmIzkxNjtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRjE2JVEiU0YnL0Y1USV0cnVlRicvRjhRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y2RjcvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIj1GJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGaW4tSSNtbkdGJDYkUSswLjAwMzAwMDAwRidGN0ZDRkZGNy1GTDYtUSIsRidGN0ZPL0ZSRkBGU0ZVRldGWUZlbi9GaG5RJjAuMGVtRicvRltvUSwwLjMzMzMzMzNlbUYnLUYjNihGMEZLLUYjNictRkw2LVEqJnVtaW51czA7RidGN0ZPRlFGU0ZVRldGWUZlbi9GaG5RLDAuMjIyMjIyMmVtRicvRltvRmBwLUYjNiYtRl1vNiRRKzAuMTE1NDk4ODVGJ0Y3LUZMNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y3Rk9GUUZTRlVGV0ZZRmVuRmRvL0Zbb0Zlby1JKG1mZW5jZWRHRiQ2Ji1GMTYlUSNtbUYnRj9GQUY3LyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRjdGQ0ZGRjdGQ0ZGRjdGQ0ZGRjc=">NiQvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiQhIiQvRiUsJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YmSSZVbml0c0c2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJkY1NiM2Iy5JI21tR0YmJCE5YjZdJSkpXDosWCkpXDoiISND</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSVtc3ViR0YkNiUtSSNtaUdGJDYlUScmIzkxNjtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRjE2JVEiU0YnL0Y1USV0cnVlRicvRjhRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y2RjcvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIj1GJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGaW4tSSNtbkdGJDYkUSswLjAwNjAwMDAwRidGN0ZDRkZGNy1GTDYtUSIsRidGN0ZPL0ZSRkBGU0ZVRldGWUZlbi9GaG5RJjAuMGVtRicvRltvUSwwLjMzMzMzMzNlbUYnLUYjNihGMEZLLUYjNictRkw2LVEqJnVtaW51czA7RidGN0ZPRlFGU0ZVRldGWUZlbi9GaG5RLDAuMjIyMjIyMmVtRicvRltvRmBwLUYjNiYtRl1vNiRRKzAuMjMwOTk3NjlGJ0Y3LUZMNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y3Rk9GUUZTRlVGV0ZZRmVuRmRvL0Zbb0Zlby1JKG1mZW5jZWRHRiQ2Ji1GMTYlUSNtbUYnRj9GQUY3LyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRjdGQ0ZGRjdGQ0ZGRjdGQ0ZGRjc=">NiQvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIichIiQvRiUsJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YmSSZVbml0c0c2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJkY1NiM2Iy5JI21tR0YmJCE5NUIrcCgqNEIrcCgqNEIhI0M=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSVtc3ViR0YkNiUtSSNtaUdGJDYlUScmIzkxNjtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRjE2JVEiU0YnL0Y1USV0cnVlRicvRjhRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y2RjcvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIj1GJ0Y3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHRjYvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGaW4tSSNtbkdGJDYkUSswLjAwOTAwMDAwRidGN0ZDRkZGNy1GTDYtUSIsRidGN0ZPL0ZSRkBGU0ZVRldGWUZlbi9GaG5RJjAuMGVtRicvRltvUSwwLjMzMzMzMzNlbUYnLUYjNihGMEZLLUYjNictRkw2LVEqJnVtaW51czA7RidGN0ZPRlFGU0ZVRldGWUZlbi9GaG5RLDAuMjIyMjIyMmVtRicvRltvRmBwLUYjNiYtRl1vNiRRKzAuMzQ2NDk2NTRGJ0Y3LUZMNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y3Rk9GUUZTRlVGV0ZZRmVuRmRvL0Zbb0Zlby1JKG1mZW5jZWRHRiQ2Ji1GMTYlUSNtbUYnRj9GQUY3LyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRjdGQ0ZGRjdGQ0ZGRjdGQ0ZGRjc=">NiQvJkkmRGVsdGFHNiI2I0kiU0dGJiQiIiohIiQvRiUsJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YmSSZVbml0c0c2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJkY1NiM2Iy5JI21tR0YmJCE5bE1dYCdcWS5ObFxZJCEjQw==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L58" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+</Worksheet>

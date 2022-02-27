@@ -1,0 +1,9 @@
+Nullpunkt
+333 270
+
+X-Pixel = Spannung
+656-4 = 2V
+
+Y-Pixel = Spannung
+534-5 = 16V
+27.11.2010 16:26:48

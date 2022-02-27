@@ -1,0 +1,37 @@
+http://www.techniker-forum.de/informatik-55/matlab-zeit-laplacebereich-61768.html
+
+
+
+ich habe eine kleines Problem mit meinem Skript.
+Und zwar, soll er die Messdaten aus dem Scope herauslesen, Interpolieren und dann Laplacetransformieren.
+Als Test habe ich in einem Simulink Modell ein IT4-Glied als Übertragungsfunktion genommen und die Sprungantwort im Scope zeigen lassen. Das Interpolieren gibt ein relativ vernünftiges Ergebnis.
+Aber die Laplacetransformierte scheint so nicht richtig zusein.
+
+Die Laplacetransformation habe ich symbolisch berechnen lassen.
+(Das Skript soll später eine ITn ähnliche Strecke auswerten)
+
+Wenn jemand verbesserungstipps (z.B. die if-Schleife) oder den Fehler sieht, wäre ich sehr dankbar.
+Oder liege ich falsch und das Ergebnis ist so korrekt?
+
+Und nebenbei, weiss jemand wie ich die syms wieder in ein ft Format wandeln kann?
+
+Code:
+
+%% Konstanten
+clc
+s=tf('s');
+%% Laden der Messwerte
+y=Antwort.signals.values;
+x=Antwort.time;
+%% Interpolieren
+f=polyfit(x,y,5);
+grad=max(size(f));
+%% Symbolische umwandlung
+clear Fiv;
+syms t;
+for i=1:grad
+    Fiv(i)=f(i)*t^(grad-i);
+end
+fsym=sum(Fiv);
+%% Berechnen der Laplacetransformierten
+Fs=laplace(fsym)

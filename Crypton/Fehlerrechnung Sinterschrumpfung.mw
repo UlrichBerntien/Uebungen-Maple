@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="17" minor="2"/>
+<Label-Scheme value="1" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true"><Zoom percentage="125"/>
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="8" screenpixelheight="1080" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Metadata-table>
+    <Metadata-category name="&lt;default&gt;"/>
+    <Metadata-tag id="0" category="&lt;default&gt;" name="Document Properties">
+        <Metadata-attribute name="Subject" value="&lt;default&gt;"/>
+        <Metadata-attribute name="Author" value="Ulrich Berntien"/>
+        <Metadata-attribute name="Item List" value="true"/>
+        <Metadata-attribute name="Keywords" value="Fehlerrechnung Sinterschrumpfung Pr\303\274fvorschrift Crypton"/>
+        <Metadata-attribute name="Title" value="Fehlerrechnung Sinterschrumpfung"/>
+    </Metadata-tag>
+</Metadata-table>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Digits := 24: interface( displayprecision = 8 ):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">convertRhsUnits := (equation,unit) -&gt; lhs(equation) = convert(rhs(equation),'units',unit):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal" alignment="right">Stand 6.1.2014</Text-field>
+<Text-field style="Text" layout="Normal" alignment="right">Autor: Dr. Ulrich Berntien</Text-field>
+<Text-field style="Text" layout="Normal" alignment="right"></Text-field>
+<Text-field style="Text" layout="Normal" alignment="right"></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Inhalt</Font></Text-field></Title>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Auswirkung von Messfehlern auf die berechnete Sinterschrumpfung.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false" encoding="UTF-8">Fehler in Schrumpfung durch Fehler in L\303\244ngenmessung</Font></Text-field></Title>
+<Group labelreference="L25" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die Schrumpfung S wird berechnet aus einer L\303\244nge vor dem Sintern L</Font><Font subscript="true">vor</Font> und nach dem Sintern L<Font subscript="true">nach</Font>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">S = ( L[vor] - L[nach] )/ L[vor];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiU0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIj1GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC1JJm1mcmFjR0YkNigtRiM2Ji1GIzYmLUklbXN1YkdGJDYlLUYsNiVRIkxGJ0YvRjItRiM2Ji1GLDYlUSR2b3JGJ0YvRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZ28tRlc2JUZZLUYjNiYtRiw2JVElbmFjaEYnRi9GMkZbb0Zeb0Y5RmBvRjlGW29GXm9GOS1GIzYmRlZGW29GXm9GOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZ3AvJSliZXZlbGxlZEdGPUZbb0Zeb0Y5">L0kiU0c2IiomLCYmSSJMR0YkNiNJJHZvckdGJCIiIiZGKDYjSSVuYWNoR0YkISIiRitGJ0Yv</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L26" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die beiden L\303\244ngen werden gemessen. Damit ist jede L\303\244nge mit einer Messunsicherheit behaftet.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Absolute Messunsicherheit der L\303\244nge vor dem Sintern: \316\224</Font><Font subscript="true">vor</Font>.</Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Absolute Messunsicherheit der L\303\244nge nach dem Sintern: \316\224</Font><Font subscript="true">nach</Font>.</Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Sind die beiden Messfehler statistisch unabh\303\244ngig und normalverteilt, dann kann die Unsicherheit des Schrumpfung \303\274ber die Gau\303\237 Fehlerrechnung bestimmt werden.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die statistische Unabh\303\244ngigkeit und die Normalverteilung werden ohne weitere Kontrolle angenommen.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta[S] = sqrt( Diff(S,L[vor])^2 * Delta[vor]^2 + Diff(S,L[nach])^2 * Delta[nach]^2 );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIlNGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiQtSSZtc3FydEdGJDYjLUYjNiYtRiM2Ji1JJW1zdXBHRiQ2JS1JKG1mZW5jZWRHRiQ2JC1GIzYoLUkmbWZyYWNHRiQ2KC1GIzYmLUZKNi9RKyZQYXJ0aWFsRDtGJy9GQlEuWzE0NCwxNDQsMTQ0XUYnRjUvSSttc2VtYW50aWNzR0YkUSZpbmVydEYnRk1GT0ZRRlNGVUZXRlkvRmZuUSYwLjBlbUYnL0ZpbkZpcEZBRkRGNS1GIzYmLUYjNidGYHAtRiw2JS1GLzYlUSJMRidGPUY/LUYjNiYtRi82JVEkdm9yRidGPUY/RkFGREY1RkZGQUZERjVGQUZERjUvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl5yLyUpYmV2ZWxsZWRHRjQtRko2LVExJkludmlzaWJsZVRpbWVzO0YnRjVGTUZPRlFGU0ZVRldGWUZocEZqcEY6RkFGREY1RjUtSSNtbkdGJDYkUSIyRidGNS8lMXN1cGVyc2NyaXB0c2hpZnRHRkhGY3ItSShtc3Vic3VwR0YkNidGLkZkcUZmckZqckZGRjUtRko2LVEiK0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RLDAuMjIyMjIyMmVtRicvRmluRmNzLUYjNiYtRmRvNiUtRmdvNiQtRiM2KC1GXHA2KEZecC1GIzYmLUYjNidGYHAtRiw2JUZhcS1GIzYmLUYvNiVRJW5hY2hGJ0Y9Rj9GQUZERjVGRkZBRkRGNUZBRkRGNUZpcUZcckZfckZhckZjckY6RkFGREY1RjVGZnJGanJGY3ItRl1zNidGLkZldEZmckZqckZGRjVGNUY1RkFGREY1">LyZJJkRlbHRhRzYiNiNJIlNHRiUqJCwmKiYtSSVEaWZmRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YlNiRGJyZJIkxHRiU2I0kkdm9yR0YlIiIjJkYkRjNGNSIiIiomLUYsNiRGJyZGMjYjSSVuYWNoR0YlRjUmRiRGPEY1RjcjRjdGNQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Die Ableitungen ausrechnen.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Diff(S,L[vor]):
+% = value(subs(<Label label="L25" view="label" executable="true"></Label>,%)):
+simplify(%,size);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSZtZnJhY0dGJDYoLUYjNiYtSSNtb0dGJDYvUSsmUGFydGlhbEQ7RicvJStmb3JlZ3JvdW5kR1EuWzE0NCwxNDQsMTQ0XUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy9JK21zZW1hbnRpY3NHRiRRJmluZXJ0RicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkEvJSlzdHJldGNoeUdGQS8lKnN5bW1ldHJpY0dGQS8lKGxhcmdlb3BHRkEvJS5tb3ZhYmxlbGltaXRzR0ZBLyUnYWNjZW50R0ZBLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUC9GN1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkFGOS1GIzYmLUYjNidGMi1JJW1zdWJHRiQ2JS1JI21pR0YkNiVRIkxGJy8lJ2l0YWxpY0dRJXRydWVGJy9GOlEnaXRhbGljRictRiM2Ji1GaW42JVEkdm9yRidGXG9GX29GU0ZVRjkvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0ZTRlVGOUZTRlVGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXnAvJSliZXZlbGxlZEdGQS1GMzYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY/RkJGREZGRkhGSkZMRk5GUS1GaW42JVEiU0YnRlxvRl9vRlNGVUY5LUYzNi1RIj1GJ0Y5Rj9GQkZERkZGSEZKRkwvRk9RLDAuMjc3Nzc3OGVtRicvRlJGXXEtRi42KC1GIzYmLUZmbjYlRmhuLUYjNiYtRmluNiVRJW5hY2hGJ0Zcb0Zfb0ZTRlVGOUZmb0ZTRlVGOS1GIzYmLUkobXN1YnN1cEdGJDYnRmhuRmFvLUkjbW5HRiQ2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R0Zob0Zmb0ZTRlVGOUZpb0ZccEZfcEZhcEZTRlVGOQ==">Ly1JJURpZmZHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHNiI2JEkiU0dGKCZJIkxHRig2I0kkdm9yR0YoKiYmRiw2I0klbmFjaEdGKCIiIkYrISIj</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Diff(S,L[nach]):
+% = value( subs(<Label label="L25" view="label" executable="true"></Label>,%) );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUYjNigtSSZtZnJhY0dGJDYoLUYjNiYtSSNtb0dGJDYvUSsmUGFydGlhbEQ7RicvJStmb3JlZ3JvdW5kR1EuWzE0NCwxNDQsMTQ0XUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy9JK21zZW1hbnRpY3NHRiRRJmluZXJ0RicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkEvJSlzdHJldGNoeUdGQS8lKnN5bW1ldHJpY0dGQS8lKGxhcmdlb3BHRkEvJS5tb3ZhYmxlbGltaXRzR0ZBLyUnYWNjZW50R0ZBLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGUC9GN1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkFGOS1GIzYmLUYjNidGMi1JJW1zdWJHRiQ2JS1JI21pR0YkNiVRIkxGJy8lJ2l0YWxpY0dRJXRydWVGJy9GOlEnaXRhbGljRictRiM2Ji1GaW42JVElbmFjaEYnRlxvRl9vRlNGVUY5LyUvc3Vic2NyaXB0c2hpZnRHUSIwRidGU0ZVRjlGU0ZVRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl5wLyUpYmV2ZWxsZWRHRkEtRjM2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGP0ZCRkRGRkZIRkpGTEZORlEtRmluNiVRIlNGJ0Zcb0Zfb0ZTRlVGOS1GMzYtUSI9RidGOUY/RkJGREZGRkhGSkZML0ZPUSwwLjI3Nzc3NzhlbUYnL0ZSRl1xLUYjNictRjM2LVEqJnVtaW51czA7RidGOUY/RkJGREZGRkhGSkZML0ZPUSwwLjIyMjIyMjJlbUYnL0ZSRmVxLUYuNigtSSNtbkdGJDYkRltwRjktRiM2Ji1GZm42JUZobi1GIzYmLUZpbjYlUSR2b3JGJ0Zcb0Zfb0ZTRlVGOUZmb0ZTRlVGOUZpb0ZccEZfcEZhcEZTRlVGOUZTRlVGOQ==">Ly1JJURpZmZHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHNiI2JEkiU0dGKCZJIkxHRig2I0klbmFjaEdGKCwkKiQmRiw2I0kkdm9yR0YoISIiRjQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Ableitungen einsetzen in <Label label="L26" view="label" executable="false"></Label>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( <Label label="L28" view="label" executable="true"></Label>,<Label label="L27" view="label" executable="true"></Label>, <Label label="L26" view="label" executable="true"></Label> );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIlNGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiQtSSZtc3FydEdGJDYjLUYjNiYtSSZtZnJhY0dGJDYoLUYjNigtSShtc3Vic3VwR0YkNictRi82JVEiTEYnRj1GPy1GIzYmLUYvNiVRJW5hY2hGJ0Y9Rj9GQUZERjUtSSNtbkdGJDYkUSIyRidGNS8lMXN1cGVyc2NyaXB0c2hpZnRHRkhGRi1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GW3EtRmdvNidGLi1GIzYmLUYvNiVRJHZvckYnRj1GP0ZBRkRGNUZhcEZlcEZGRkFGREY1LUYjNiYtRmdvNidGaW9GX3EtRmJwNiRRIjRGJ0Y1RmVwRkZGQUZERjUvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmByLyUpYmV2ZWxsZWRHRjQtRko2LVEiK0YnRjVGTUZPRlFGU0ZVRldGWS9GZm5RLDAuMjIyMjIyMmVtRicvRmluRmlyLUZibzYoLUYjNiYtRmdvNidGLkZccEZhcEZlcEZGRkFGREY1LUYjNiYtRmdvNidGaW9GX3FGYXBGZXBGRkZBRkRGNUZbckZeckZhckZjckY1RjVGQUZERjU=">LyZJJkRlbHRhRzYiNiNJIlNHRiUqJCwmKigmSSJMR0YlNiNJJW5hY2hHRiUiIiMmRiw2I0kkdm9yR0YlISIlJkYkRjFGLyIiIiomRjAhIiMmRiRGLUYvRjUjRjVGLw==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Fehlergrenze der Messuhr</Font></Text-field></Title>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die L\303\244ngen (jeweils eine H\303\266he durch Drehen des Pr\303\274fk\303\266rpers) werden mit einer Messuhr Sylvac \302\265S229 gemessen. Die Fehlergrenze ist im Handbuch angegeben.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta[U] = 5*Unit(micrometer);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIlVGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtSSNtbkdGJDYkUSI1RidGNS1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GZG8tSShtZmVuY2VkR0YkNiYtRi82JVEjdW1GJ0Y9Rj9GNS8lJW9wZW5HUSgmbG9icms7RicvJSZjbG9zZUdRKCZyb2JyaztGJ0Y1RkFGREY1">LyZJJkRlbHRhRzYiNiNJIlVHRiUsJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YlSSZVbml0c0c2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJUYwNiM2Iy5JI3VtR0YlIiIm</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Messunsicherheit durch Positionierung</Font></Text-field></Title>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Nach dem Sintern m\303\274ssen die L\303\244ngen des Pr\303\274fk\303\266rpers an den gleichen gleichen Positionen gemessen werden. Bei der Positionierung tritt eine Abweichung auf, der abh\303\244ngig von der Oberfl\303\244chenrauhigkeit zu einem L\303\244ngenfehler f\303\274hrt.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die Abweichung in der Position gesch\303\244tzt: 0,5 mm.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die Oberfl\303\266chenrauhigkeit gesch\303\244tzt aus einem vorliegenden Pr\303\274fprotokoll: 0,08 mm H\303\266hen\303\244nderung bei zwei Messpunkten im Abstand von rund 15 mm.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Gesch\303\244tzte Unsicherheit in der L\303\244nge durch eine Abweichung in der Position:</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta[P] = 0.5*Unit(mm) * 0.08*Unit(mm)/(15*Unit(mm)):
+convertRhsUnits(%,'micrometer');</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIlBGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtSSNtbkdGJDYkUSsyLjY2NjY2NjY3RidGNS1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GZG8tSShtZmVuY2VkR0YkNiYtRi82JVEjdW1GJ0Y9Rj9GNS8lJW9wZW5HUSgmbG9icms7RicvJSZjbG9zZUdRKCZyb2JyaztGJ0Y1RkFGREY1">LyZJJkRlbHRhRzYiNiNJIlBHRiUsJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YlSSZVbml0c0c2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJUYwNiM2Iy5JI3VtR0YlJCI5bm1tbW1tbW1tbW1FISNC</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Genauer kann diese Messunsicherheit aus einer Messreihe gewonnen werden, wobei die L\303\244ngen eines Pr\303\274fk\303\266rpers mehrfach gemessen und statistisch ausgewertet werden.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false" encoding="UTF-8">Messunsicherheit durch Temperatur\303\244nderung</Font></Text-field></Title>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Bei der Messung der L\303\244ngen nach dem Sintern kann die Temperatur des Pr\303\274fk\303\266rpers gering anders sein als bei der ersten Messung. Durch die thermische Ausdehnung des Pr\303\274fk\303\266prers ergibt sich ein m\303\266glicher L\303\244ngenfehler.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">thermischer Ausdehnungskoeffizient von Crypton: 14,7 \302\265m/(m K).</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">gesch\303\244tzte maximale Temperturdifferenz: 5 K.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">typische L\303\244nge des Pr\303\274fk\303\266rpers: 15 mm.</Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">L\303\244ngen\303\244nderung</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta[T] = 14.7*Unit(micrometer/(meter*kelvin)) * 15*Unit(mm) * 5*Unit(kelvin):
+simplify(%):
+convertRhsUnits(%, 'micrometer' );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRIlRGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtSSNtbkdGJDYkUSsxLjEwMjUwMDAwRidGNS1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GZG8tSShtZmVuY2VkR0YkNiYtRi82JVEjdW1GJ0Y9Rj9GNS8lJW9wZW5HUSgmbG9icms7RicvJSZjbG9zZUdRKCZyb2JyaztGJ0Y1RkFGREY1">LyZJJkRlbHRhRzYiNiNJIlRHRiUsJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YlSSZVbml0c0c2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJUYwNiM2Iy5JI3VtR0YlJCI5KysrKysrKysrXS02ISNC</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Diese Messunsicherheit betr\303\244gt 1/5 der Messuhrfehlergrenze. Die Unsicherheit durch Temperatur\303\244nderung k\303\266nnte verkleinert werden. Durch Temperturmessung k\303\266nnte die thermische Ausdehnung in der Berechnung der Schrumpfung ber\303\274cksichtigt werden. Alternativ kann eine konstante Temperatur in der Pr\303\274fvorschrift verlangt werden. </Font></Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font bold="false">Typischer Wert der Unsicherheit der Schrumpfung</Font></Text-field></Title>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die bei der Pr\303\274fung verwendeten L\303\244ngen liegen alle in der gleichen Gr\303\266\303\237enordnung. Daher kann aus einem L\303\244ngenwertepaar eine typische Unsicherheit der Schrumpfung berechnet werden.</Font></Text-field>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Zwei gemessene L\303\244ngen aus einem Pr\303\274fprotokoll (Charge 10046004, Block MS1V1-4, y-Richtung):</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L[vor] = 15.660*Unit(mm);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRJHZvckYnRjJGNS8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdRJmZhbHNlRicvRjZRJ25vcm1hbEYnLyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGQy8lJmZlbmNlR0ZCLyUqc2VwYXJhdG9yR0ZCLyUpc3RyZXRjaHlHRkIvJSpzeW1tZXRyaWNHRkIvJShsYXJnZW9wR0ZCLyUubW92YWJsZWxpbWl0c0dGQi8lJ2FjY2VudEdGQi8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmZuLUYjNiYtSSNtbkdGJDYkUSwxNS42NjAwMDAwMEYnRkMtRkk2LVExJkludmlzaWJsZVRpbWVzO0YnRkNGTEZORlBGUkZURlZGWC9GZW5RJjAuMGVtRicvRmhuRmNvLUkobWZlbmNlZEdGJDYmLUYvNiVRI21tRidGMkY1RkMvJSVvcGVuR1EoJmxvYnJrO0YnLyUmY2xvc2VHUSgmcm9icms7RidGQ0Y9RkBGQw==">LyZJIkxHNiI2I0kkdm9yR0YlLCQtSSVVbml0RzYkL0krbW9kdWxlbmFtZUdGJUkmVW5pdHNHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiVGMDYjNiMuSSNtbUdGJSQiJmdjIiEiJA==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">L[nach] = 14.252 * Unit(mm);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEiTEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiVRJW5hY2hGJ0YyRjUvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHUSZmYWxzZUYnL0Y2USdub3JtYWxGJy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEiPUYnRkMvJSZmZW5jZUdGQi8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zmbi1GIzYmLUkjbW5HRiQ2JFEsMTQuMjUyMDAwMDBGJ0ZDLUZJNi1RMSZJbnZpc2libGVUaW1lcztGJ0ZDRkxGTkZQRlJGVEZWRlgvRmVuUSYwLjBlbUYnL0ZobkZjby1JKG1mZW5jZWRHRiQ2Ji1GLzYlUSNtbUYnRjJGNUZDLyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRkNGPUZARkM=">LyZJIkxHNiI2I0klbmFjaEdGJSwkLUklVW5pdEc2JC9JK21vZHVsZW5hbWVHRiVJJlVuaXRzRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YlRjA2IzYjLkkjbW1HRiUkIiZfVSIhIiQ=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die Unsicherheit der L\303\244nge vor dem Sintern ist alleine durch die Fehlergrenze der Messuhr gegeben</Font>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta[vor] = Delta[U];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">LyZJJkRlbHRhRzYiNiNJJHZvckdGJSZGJDYjSSJVR0Yl</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Der Zahlenwert aus Gleichung <Label label="L6" view="label" executable="false"></Label>.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(<Label label="L6" view="label" executable="true"></Label>,<Label label="L17" view="label" executable="true"></Label>);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRJHZvckYnL0YzUSV0cnVlRicvRjZRJ2l0YWxpY0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y0RjUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIj1GJ0Y1LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGZ24tRiM2Ji1JI21uR0YkNiRRIjVGJ0Y1LUZKNi1RMSZJbnZpc2libGVUaW1lcztGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSYwLjBlbUYnL0ZpbkZkby1JKG1mZW5jZWRHRiQ2Ji1GLzYlUSN1bUYnRj1GP0Y1LyUlb3BlbkdRKCZsb2JyaztGJy8lJmNsb3NlR1EoJnJvYnJrO0YnRjVGQUZERjU=">LyZJJkRlbHRhRzYiNiNJJHZvckdGJSwkLUklVW5pdEc2JC9JK21vZHVsZW5hbWVHRiVJJlVuaXRzRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YlRjA2IzYjLkkjdW1HRiUiIiY=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Die Unsicherheit der L\303\244nge nach dem Sintern ist durch Messuhr gegeben und die Unsicherheiten aus der Positionswiederholung und der m\303\266glichen Temperatur\303\244nderung.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">Delta[nach] = Delta[U] + Delta[P] + Delta[T];</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRJW5hY2hGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNigtRiw2JUYuLUYjNiYtRi82JVEiVUYnRj1GP0ZBRkRGNUZGLUZKNi1RIitGJ0Y1Rk1GT0ZRRlNGVUZXRlkvRmZuUSwwLjIyMjIyMjJlbUYnL0ZpbkZnby1GLDYlRi4tRiM2Ji1GLzYlUSJQRidGPUY/RkFGREY1RkZGY28tRiw2JUYuLUYjNiYtRi82JVEiVEYnRj1GP0ZBRkRGNUZGRjVGQUZERjU=">LyZJJkRlbHRhRzYiNiNJJW5hY2hHRiUsKCZGJDYjSSJVR0YlIiIiJkYkNiNJIlBHRiVGLCZGJDYjSSJUR0YlRiw=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Die Zahlenwerte aus den Gleichungen <Label label="L6" view="label" executable="false"></Label>, <Label label="L9" view="label" executable="false"></Label> und <Label label="L13" view="label" executable="false"></Label> einsetzen.</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( <Label label="L6" view="label" executable="true"></Label>,<Label label="L9" view="label" executable="true"></Label>,<Label label="L13" view="label" executable="true"></Label>, <Label label="L19" view="label" executable="true"></Label> );</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUklbXN1YkdGJDYlLUkjbWlHRiQ2JVEnJiM5MTY7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiVRJW5hY2hGJy9GM1EldHJ1ZUYnL0Y2USdpdGFsaWNGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGNEY1LyUvc3Vic2NyaXB0c2hpZnRHUSIwRictSSNtb0dGJDYtUSI9RidGNS8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmduLUYjNiYtSSNtbkdGJDYkUSs4Ljc2OTE2NjY3RidGNS1GSjYtUTEmSW52aXNpYmxlVGltZXM7RidGNUZNRk9GUUZTRlVGV0ZZL0ZmblEmMC4wZW1GJy9GaW5GZG8tSShtZmVuY2VkR0YkNiYtRi82JVEjdW1GJ0Y9Rj9GNS8lJW9wZW5HUSgmbG9icms7RicvJSZjbG9zZUdRKCZyb2JyaztGJ0Y1RkFGREY1">LyZJJkRlbHRhRzYiNiNJJW5hY2hHRiUsJC1JJVVuaXRHNiQvSSttb2R1bGVuYW1lR0YlSSZVbml0c0c2JCUqcHJvdGVjdGVkR0koX3N5c2xpYkdGJUYwNiM2Iy5JI3VtR0YlJCI5bm1tbW1tbW1tO3AoKSEjQg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Die zusammengestellten Zahlenwerte in die Formel <Label label="L29" view="label" executable="false"></Label><Font encoding="UTF-8"> eingesetzt liefert die absolute Unsicherheit f\303\274r Schrumpfung.</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs( <Label label="L36" view="label" executable="true"></Label>,<Label label="L37" view="label" executable="true"></Label>, <Label label="L18" view="label" executable="true"></Label>,<Label label="L30" view="label" executable="true"></Label>, <Label label="L29" view="label" executable="true"></Label> ):
+simplify(%);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">LyZJJkRlbHRhRzYiNiNJIlNHRiUkIjl6OXhOISp6SkEiZigzaiEjRg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Font bold="true" encoding="UTF-8">Die typische Unsicherheit der Schrumpfung aus den Messunsicherheiten betr\303\244gt 0,0006 oder 0,06 %-Punkte.</Font></Text-field>
+</Input>
+</Group>
+</Section>
+</Worksheet>
